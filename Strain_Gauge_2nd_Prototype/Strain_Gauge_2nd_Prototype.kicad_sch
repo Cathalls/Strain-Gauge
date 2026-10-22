@@ -8211,157 +8211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:Earth"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -12684,6 +12533,16 @@
 		(uuid "19f0cd8c-f3e6-440c-8c66-f89a28cc0e9d")
 	)
 	(label "GND"
+		(at 289.56 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a324465-24d3-40a0-ac51-692fd9ba39ec")
+	)
+	(label "GND"
 		(at 40.64 115.57 0)
 		(effects
 			(font
@@ -12854,6 +12713,16 @@
 		(uuid "35ee1f82-ca26-4efa-8618-62946d3fdf0c")
 	)
 	(label "GND"
+		(at 389.89 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3738d244-28d2-4f14-9fe1-1fb6aa5dbff2")
+	)
+	(label "GND"
 		(at 254 205.74 0)
 		(effects
 			(font
@@ -12932,6 +12801,16 @@
 			(justify left bottom)
 		)
 		(uuid "3d19e299-edc2-496a-bce8-61bf25ce1197")
+	)
+	(label "GND"
+		(at 320.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "435d1b38-832e-4b18-a16b-83964198af7b")
 	)
 	(label "USB_D-"
 		(at 314.96 212.09 0)
@@ -13354,6 +13233,16 @@
 		(uuid "7489843c-9688-492f-ad42-69e84a64c913")
 	)
 	(label "GND"
+		(at 383.54 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750517cb-3b68-4b78-a14b-4197e296e1e6")
+	)
+	(label "GND"
 		(at 139.7 21.59 0)
 		(effects
 			(font
@@ -13604,6 +13493,16 @@
 		(uuid "930af2f1-23fd-4354-a1c0-7e7390f2c3e8")
 	)
 	(label "GND"
+		(at 332.74 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94b7d999-b871-424e-86b6-a1fda038cf70")
+	)
+	(label "GND"
 		(at 153.67 133.35 0)
 		(effects
 			(font
@@ -13812,6 +13711,16 @@
 			(justify left bottom)
 		)
 		(uuid "abca9080-093e-4fa3-9495-95a51d007c36")
+	)
+	(label "GND"
+		(at 302.26 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aef9866c-1bd5-4cb4-90f2-10a30e6044c6")
 	)
 	(label "3.3V"
 		(at 106.68 95.25 0)
@@ -14163,6 +14072,16 @@
 		)
 		(uuid "e20f0282-c0af-4b65-bddb-ee76d8336536")
 	)
+	(label "GND"
+		(at 374.65 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e436ee83-4f4a-455c-926d-045748472c8a")
+	)
 	(label "3.3V"
 		(at 129.54 26.67 0)
 		(effects
@@ -14472,85 +14391,6 @@
 			(project "Strain_Gauge_2nd_Prototype"
 				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 374.65 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0430b3dd-26d6-4b81-b67d-918771c5c28b")
-		(property "Reference" "#PWR05"
-			(at 374.65 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 374.65 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 374.65 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7404f867-6e1e-4674-b707-4c46d4eb82d1")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17991,85 +17831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 320.04 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61d93c2f-3989-41af-8b92-0c9992f18847")
-		(property "Reference" "#PWR03"
-			(at 320.04 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 320.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f7db1fc-726c-48b8-acf5-ff78b20b471d")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 256.54 64.77 0)
 		(unit 1)
@@ -18146,85 +17907,6 @@
 			(project "Strain_Gauge_2nd_Prototype"
 				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 332.74 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e62403-0202-467c-96c3-78aca4f934a8")
-		(property "Reference" "#PWR04"
-			(at 332.74 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 332.74 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 332.74 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f1d0458-e3ef-4965-957b-096e9c2c7b26")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18684,7 +18366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19432,7 +19114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4105-GF-A-060:GCT_USB4105-GF-A-060"
+		(property "Footprint" "Gauge Footprints:GCT_USB4105-GF-A-060"
 			(at 345.44 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19679,7 +19361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS2113APWR:SOP65P640X120-8N"
+		(property "Footprint" "Gauge Footprints:SOP65P640X120-8N"
 			(at 318.77 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20068,85 +19750,6 @@
 			(project "Strain_Gauge_2nd_Prototype"
 				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 289.56 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93bc0ceb-0e83-4a3f-a556-b18d640b7df4")
-		(property "Reference" "#PWR01"
-			(at 289.56 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 289.56 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cf0ee3e-da09-46a5-aa86-6e03577795b9")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -20758,7 +20361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS73733DCQ:SOT127P706X180-6N"
+		(property "Footprint" "Gauge Footprints:SOT127P706X180-6N"
 			(at 349.885 163.195 0)
 			(hide yes)
 			(show_name no)
@@ -21161,85 +20764,6 @@
 			(project "Strain_Gauge_2nd_Prototype"
 				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 389.89 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b122b7b3-8b8e-4de0-849d-4f56167f7c4b")
-		(property "Reference" "#PWR07"
-			(at 389.89 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 389.89 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 389.89 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 389.89 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b1c6569-ae7d-47c5-87d8-e5e62140b3c2")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21912,85 +21436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 383.54 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4e99e44-c95e-4435-bd2a-ed0a78409123")
-		(property "Reference" "#PWR06"
-			(at 383.54 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 383.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 383.54 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9357d20-6e64-4e3e-8b1d-d7e2c709bff0")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 367.03 191.77 0)
 		(unit 1)
@@ -22068,85 +21513,6 @@
 			(project "Strain_Gauge_2nd_Prototype"
 				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 302.26 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd7845e9-c20e-4d01-b57d-6f0248082b2a")
-		(property "Reference" "#PWR02"
-			(at 302.26 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 302.26 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 302.26 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "599afa71-5487-4207-9ede-9a0663cb96f9")
-		)
-		(instances
-			(project "Strain_Gauge_2nd_Prototype"
-				(path "/2b779f68-a807-4bc5-a33c-26b12bb2b457"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -22816,7 +22182,7 @@
 		(dnp no)
 		(uuid "e71183ba-1072-4fa9-a21a-d9ee3ef40cd7")
 		(property "Reference" "C13"
-			(at 166.37 20.32 90)
+			(at 166.37 24.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
