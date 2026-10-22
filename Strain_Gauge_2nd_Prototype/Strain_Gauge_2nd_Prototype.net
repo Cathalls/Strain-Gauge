@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\louis\\OneDrive\\Formula Sport Projects\\Strain_Gauge_2nd_Prototype\\Strain_Gauge_2nd_Prototype.kicad_sch")
-		(date "2026-10-21T18:20:52")
+		(date "2026-10-22T12:55:16")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -1624,13 +1624,13 @@
 			(ref "D1")
 			(value "BZT52-C15S-AU_R1_000A1")
 			(footprint "Diode_SMD:D_SOD-323_HandSoldering")
+			(datasheet "https://www.panjit.com.tw/upload/datasheet/BZT52-C2V4S-AU_SERIES.pdf")
 			(description "Zener diode")
 			(fields
 				(field
 					(name "Footprint") "Diode_SMD:D_SOD-323_HandSoldering")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.panjit.com.tw/upload/datasheet/BZT52-C2V4S-AU_SERIES.pdf")
 				(field
 					(name "Description") "Zener diode")
 			)
@@ -1678,13 +1678,13 @@
 			(ref "D2")
 			(value "TPSMF4L26A")
 			(footprint "Diode_SMD:D_SOD-123F")
+			(datasheet "https://www.littelfuse.com/assetdocs/tvs-diodes-tpsmf4l-datasheet?assetguid=b90307ca-11e1-4891-9cbd-b9c54d21a402")
 			(description "Zener diode")
 			(fields
 				(field
 					(name "Footprint") "Diode_SMD:D_SOD-123F")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.littelfuse.com/assetdocs/tvs-diodes-tpsmf4l-datasheet?assetguid=b90307ca-11e1-4891-9cbd-b9c54d21a402")
 				(field
 					(name "Description") "Zener diode")
 			)
@@ -1792,13 +1792,13 @@
 			(ref "F1")
 			(value "MF-PSMF050X-2")
 			(footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(datasheet "https://www.bourns.com/docs/product-datasheets/mf-psmf.pdf")
 			(description "Resettable fuse, polymeric positive temperature coefficient")
 			(fields
 				(field
 					(name "Footprint") "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.bourns.com/docs/product-datasheets/mf-psmf.pdf")
 				(field
 					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
 			)
@@ -1966,13 +1966,73 @@
 			)
 		)
 		(comp
-			(ref "J3")
+			(ref "J2")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71dc062c-77a4-4852-a628-ab15269be5c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x04")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2028,11 +2088,11 @@
 		(comp
 			(ref "J4")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2088,11 +2148,11 @@
 		(comp
 			(ref "J5")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2148,11 +2208,11 @@
 		(comp
 			(ref "J6")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2208,11 +2268,11 @@
 		(comp
 			(ref "J7")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2268,11 +2328,11 @@
 		(comp
 			(ref "J8")
 			(value "Conn_01x04")
-			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x")
+					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2329,6 +2389,7 @@
 			(ref "J9")
 			(value "USB4105-GF-A-060")
 			(footprint "USB4105-GF-A-060:GCT_USB4105-GF-A-060")
+			(datasheet "https://gct.co/connector/usb4105")
 			(description "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole")
 			(fields
 				(field
@@ -2356,8 +2417,7 @@
 				(field
 					(name "Footprint") "USB4105-GF-A-060:GCT_USB4105-GF-A-060")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://gct.co/connector/usb4105")
 				(field
 					(name "Description") "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole")
 			)
@@ -2681,15 +2741,15 @@
 			(ref "Q1")
 			(value "PMV100EPA")
 			(footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
-			(datasheet "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf")
-			(description "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf")
+			(description "60 V P-channel MOSFET, SOT-23, AEC-Q101")
 			(fields
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23_Handsoldering")
 				(field
-					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf")
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PMV100EPA.pdf")
 				(field
-					(name "Description") "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+					(name "Description") "60 V P-channel MOSFET, SOT-23, AEC-Q101")
 			)
 			(libsource
 				(lib "Transistor_FET")
@@ -5113,6 +5173,7 @@
 			(ref "U3")
 			(value "TPS73733DCQ")
 			(footprint "TPS73733DCQ:SOT127P706X180-6N")
+			(datasheet "https://www.ti.com/product/TPS737")
 			(description "1A ultra-low-dropout voltage regulator with reverse current protection and enable")
 			(fields
 				(field
@@ -5132,8 +5193,7 @@
 				(field
 					(name "Footprint") "TPS73733DCQ:SOT127P706X180-6N")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.ti.com/product/TPS737")
 				(field
 					(name "Description") "1A ultra-low-dropout voltage regulator with reverse current protection and enable")
 			)
@@ -5360,6 +5420,7 @@
 			(ref "U6")
 			(value "TPS2113APWR")
 			(footprint "TPS2113APWR:SOP65P640X120-8N")
+			(datasheet "https://www.ti.com/product/TPS2113A/part-details/TPS2113APWR")
 			(description "2.8-V to 5.5-V, 84-mΩ, 1.25-A, power mux with automatic switchover and status output")
 			(fields
 				(field
@@ -5379,8 +5440,7 @@
 				(field
 					(name "Footprint") "TPS2113APWR:SOP65P640X120-8N")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.ti.com/product/TPS2113A/part-details/TPS2113APWR")
 				(field
 					(name "Description") "2.8-V to 5.5-V, 84-mΩ, 1.25-A, power mux with automatic switchover and status output")
 			)
@@ -5467,14 +5527,14 @@
 			(value "7XL-8.192MBD-T")
 			(footprint "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
 			(datasheet "http://www.txccrystal.com/images/pdf/7xl-tight_wide.pdf")
-			(description "CRYSTAL 8.1920MHZ 18PF SMD")
+			(description "8.192 MHz, 3.3 V CMOS oscillator, 3.2 × 2.5 mm")
 			(fields
 				(field
 					(name "Footprint") "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
 				(field
 					(name "Datasheet") "http://www.txccrystal.com/images/pdf/7xl-tight_wide.pdf")
 				(field
-					(name "Description") "CRYSTAL 8.1920MHZ 18PF SMD")
+					(name "Description") "8.192 MHz, 3.3 V CMOS oscillator, 3.2 × 2.5 mm")
 			)
 			(libsource
 				(lib "Oscillator")
@@ -7098,7 +7158,7 @@
 	(libraries
 		(library
 			(logical "2026-10-21_05-43-36")
-			(uri "C:\\Users\\louis\\Downloads\\ul_2601-1104 (2)\\KiCADv6\\2026-10-21_05-43-36.kicad_sym")
+			(uri "C:/Users/louis/Downloads/ul_2601-1104 (2)/KiCADv6/2026-10-21_05-43-36.kicad_sym")
 		)
 		(library
 			(logical "Analog_ADC")
@@ -7233,6 +7293,12 @@
 				(pin "4")
 				(pinfunction "VDD_4")
 				(pintype "power_in")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
 			)
 			(node
 				(ref "J3")
@@ -7930,6 +7996,12 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "SW1")
 				(pin "2")
 				(pinfunction "2_2")
@@ -8051,6 +8123,12 @@
 			(node
 				(ref "J1")
 				(pin "6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
 				(pintype "passive")
 			)
 			(node
@@ -8656,6 +8734,12 @@
 				(ref "J11")
 				(pin "SH")
 				(pinfunction "SHIELD_SH")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
