@@ -64,9 +64,12 @@ void Error_Handler(void);
 #define ADC_DRDY_EXTI_IRQn EXTI0_IRQn
 #define ADC_START_Pin GPIO_PIN_1
 #define ADC_START_GPIO_Port GPIOB
-#define SD_CARD_DETECT_Pin GPIO_PIN_3
+#define SD_CARD_DETECT_Pin GPIO_PIN_5
 #define SD_CARD_DETECT_GPIO_Port GPIOB
-#define SD_CARD_DETECT_EXTI_IRQn EXTI3_IRQn
+#define SD_CARD_DETECT_EXTI_IRQn EXTI9_5_IRQn
+#define CAN_STBY_Pin GPIO_PIN_7
+#define CAN_STBY_GPIO_Port GPIOB
+#define CAN_STBY_EXTI_IRQn EXTI9_5_IRQn
 
 /* USER CODE BEGIN Private defines */
 
