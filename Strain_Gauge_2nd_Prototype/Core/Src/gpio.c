@@ -56,6 +56,12 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(ADC_START_GPIO_Port, ADC_START_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pins : CARDDETECT_Pin ADCPWDN_Pin ADCRESET_Pin */
+  GPIO_InitStruct.Pin = CARDDETECT_Pin|ADCPWDN_Pin|ADCRESET_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
   /*Configure GPIO pin : ADC_CS_Pin */
   GPIO_InitStruct.Pin = ADC_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -76,11 +82,11 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(ADC_START_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SD_CARD_DETECT_Pin CAN_STBY_Pin */
-  GPIO_InitStruct.Pin = SD_CARD_DETECT_Pin|CAN_STBY_Pin;
+  /*Configure GPIO pin : CAN_STBY_Pin */
+  GPIO_InitStruct.Pin = CAN_STBY_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(CAN_STBY_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI0_IRQn, 2, 0);

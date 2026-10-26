@@ -57,16 +57,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CARDDETECT_Pin GPIO_PIN_13
+#define CARDDETECT_GPIO_Port GPIOC
 #define ADC_CS_Pin GPIO_PIN_4
 #define ADC_CS_GPIO_Port GPIOA
+#define ADCPWDN_Pin GPIO_PIN_4
+#define ADCPWDN_GPIO_Port GPIOC
+#define ADCRESET_Pin GPIO_PIN_5
+#define ADCRESET_GPIO_Port GPIOC
+#define ADCRESET_EXTI_IRQn EXTI9_5_IRQn
 #define ADC_DRDY_Pin GPIO_PIN_0
 #define ADC_DRDY_GPIO_Port GPIOB
 #define ADC_DRDY_EXTI_IRQn EXTI0_IRQn
 #define ADC_START_Pin GPIO_PIN_1
 #define ADC_START_GPIO_Port GPIOB
-#define SD_CARD_DETECT_Pin GPIO_PIN_5
-#define SD_CARD_DETECT_GPIO_Port GPIOB
-#define SD_CARD_DETECT_EXTI_IRQn EXTI9_5_IRQn
 #define CAN_STBY_Pin GPIO_PIN_7
 #define CAN_STBY_GPIO_Port GPIOB
 #define CAN_STBY_EXTI_IRQn EXTI9_5_IRQn

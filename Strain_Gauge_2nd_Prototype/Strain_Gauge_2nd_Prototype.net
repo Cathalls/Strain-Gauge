@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\louis\\OneDrive\\Formula Sport Projects\\Strain_Gauge_2nd_Prototype\\Strain_Gauge_2nd_Prototype.kicad_sch")
-		(date "2026-10-23T11:44:32")
+		(date "2026-10-26T21:55:51")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -55,121 +55,13 @@
 	)
 	(components
 		(comp
-			(ref "C1")
-			(value "4.7microF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "bbec9139-f114-4fff-9f93-153478a8d784")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C2")
-			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0c5ffe74-5dfa-447e-b67e-666a310222de")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C3")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -217,337 +109,13 @@
 			)
 		)
 		(comp
-			(ref "C4")
-			(value "1microF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9f026072-411a-4989-b443-355aa41ef73f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C5")
-			(value "1microF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "80255376-e2c8-4c4e-abae-c735c29f554b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C6")
-			(value "1microF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "bf99ec72-af06-4bcc-aa89-03e50894d366")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C7")
-			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "28b59bd3-2b79-4139-9e65-90442f192fc5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C8")
-			(value "220nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "d77202d4-5530-43c6-8854-6daa6a563ba0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C9")
-			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c1108042-38d0-4326-998d-ea23f8862fba")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C10")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -597,11 +165,11 @@
 		(comp
 			(ref "C11")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -651,11 +219,11 @@
 		(comp
 			(ref "C12")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -687,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "429e460e-0bb1-4c25-a667-19c9a9eb1508")
+			(tstamps "1109c23d-2df4-4f61-a561-eb9d1ef25745")
 			(units
 				(unit
 					(name "A")
@@ -705,11 +273,11 @@
 		(comp
 			(ref "C13")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -757,67 +325,13 @@
 			)
 		)
 		(comp
-			(ref "C14")
-			(value "4.7microF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "6a807f00-9652-4669-95a4-f894fd76f62c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C15")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -867,11 +381,11 @@
 		(comp
 			(ref "C16")
 			(value "4.7microF")
-			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -919,67 +433,13 @@
 			)
 		)
 		(comp
-			(ref "C17")
-			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "a4fe3a65-9761-49d7-af80-1c5b966f355c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C18")
 			(value "10nF")
-			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1029,11 +489,11 @@
 		(comp
 			(ref "C19")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1083,11 +543,11 @@
 		(comp
 			(ref "C20")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1191,11 +651,11 @@
 		(comp
 			(ref "C22")
 			(value "220nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1245,11 +705,11 @@
 		(comp
 			(ref "C23")
 			(value "1uF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1299,11 +759,11 @@
 		(comp
 			(ref "C24")
 			(value "100nF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1353,11 +813,11 @@
 		(comp
 			(ref "C25")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1407,11 +867,11 @@
 		(comp
 			(ref "C26")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -1621,6 +1081,1572 @@
 			)
 		)
 		(comp
+			(ref "C30")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ea5ea8f8-139c-4bcb-bc14-af113a569be1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C31")
+			(value "100nF - VDDUSB")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c1a8408-1885-4784-88fe-699a78977682")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "4.7microF - General all board one")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7e266179-4d1d-4efe-9c25-f8ab5474a163")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C33")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd23df24-b703-4fa5-87c7-8aabf56d3706")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C34")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a927bdf3-ecde-47a7-a7dc-0c785ac794e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C35")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7153aa51-80be-4b79-a5be-b043cb8ffac0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C36")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "268a50d2-6f9c-46da-9f46-3a95c6e61fa6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C37")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a0fa4e8c-6fce-4ec3-a2ab-cc8fd946434e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C38")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74858450-c05c-4835-83d8-c87d8147b241")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C39")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9356892b-03c2-4db0-b04b-f22f54046529")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C40")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29e99fd3-5d6f-4d23-a829-a6bda2cb8e66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C41")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "01137b61-bd63-4e47-8553-527323011035")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C42")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3cb6aff3-9b77-4b59-a849-72033d07e30a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C43")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd631ff0-1c9c-440b-8266-d3b129ef702f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C44")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "098eaacd-7547-41ba-8c63-5cc3a349a430")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C45")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4979ce4e-c01f-4c14-bb10-7820d0cad594")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C46")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34b41d02-cdaa-4898-b3b8-c13dbd612a19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C47")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "251770db-9cf8-47ef-8616-24d924a0bd8c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C48")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "82e36040-c3b6-4fc4-8619-1182b733ef11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C49")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad7228df-b126-42b8-a05f-89064f0d42ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C50")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "27deb689-e584-4e39-98a8-3bf4580353a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C51")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c822c278-e9e8-4be9-be87-c34435d19708")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C52")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "deb7348e-57a7-48d2-9614-0a86b0d6fe7e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C53")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dbef869b-82be-41c8-b855-6288319767fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C54")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "904ceafd-6824-4643-8e7c-a24624d71305")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C55")
+			(value "1microF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8e2c213a-78ed-4ff4-a82f-ec7fcf3200d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C56")
+			(value "22uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6e421a06-0d5e-4c18-aeec-c6b05c122cdd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C57")
+			(value "10pF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ca26b26-b548-4f64-bd39-8e3367c79acd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C58")
+			(value "10pF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36c0a10c-969c-4144-a8a8-462d447ddd47")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D1")
 			(value "BZT52-C15S-AU_R1_000A1")
 			(footprint "Diode_SMD:D_SOD-323_HandSoldering")
@@ -1731,13 +2757,13 @@
 		(comp
 			(ref "D3")
 			(value "LED")
-			(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(footprint "LED_SMD:LED_0402_1005Metric")
 			(description "Light emitting diode")
 			(fields
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Footprint") "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+					(name "Footprint") "LED_SMD:LED_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1881,7 +2907,61 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a877c453-46e4-4fb7-842d-bb8e763fa6e2")
+			(tstamps "fe48ccda-6c3a-4c3b-8db1-319a6f4687b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB3")
+			(value "600ohm @ 100MHz,1.3A rating, 150mohm max DC resistance")
+			(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(description "Ferrite bead")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ferrite bead")
+			)
+			(libsource
+				(lib "Device")
+				(part "FerriteBead")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "L ferrite bead inductor filter")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Inductor_* L_* *Ferrite*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b5e584fa-ca77-4880-986c-6485daa6adfc")
 			(units
 				(unit
 					(name "A")
@@ -2208,11 +3288,11 @@
 		(comp
 			(ref "J6")
 			(value "Conn_01x04")
-			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2268,11 +3348,11 @@
 		(comp
 			(ref "J7")
 			(value "Conn_01x04")
-			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2328,11 +3408,11 @@
 		(comp
 			(ref "J8")
 			(value "Conn_01x04")
-			(footprint "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+			(footprint "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
+					(name "Footprint") "Connector_Wire:SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2684,23 +3764,53 @@
 			)
 		)
 		(comp
-			(ref "L1")
-			(value "8.2uH, 86m")
-			(footprint "Inductor_SMD:L_Vishay_IHLP-1616")
-			(description "Inductor")
+			(ref "L2")
+			(value "IHLP2525CZER8R2M01")
+			(footprint "Gauge Footprints:INDPM6965X300N")
+			(datasheet "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf")
+			(description "Vishay IHLP Series Type 2525 Shielded Wire-wound SMD Inductor with a Metal Composite Core, 8.2 uH +/-20% Wire-Wound")
 			(fields
 				(field
-					(name "Footprint") "Inductor_SMD:L_Vishay_IHLP-1616")
+					(name "Height") "3")
 				(field
-					(name "Datasheet")
-				)
+					(name "Mouser Part Number") "70-IHLP2525CZER8R2M1")
 				(field
-					(name "Description") "Inductor")
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER8R2M01?qs=uLRk3XvH1cLgjiQuM1Qn8A%3D%3D")
+				(field
+					(name "Manufacturer_Name") "Vishay")
+				(field
+					(name "Manufacturer_Part_Number") "IHLP2525CZER8R2M01")
+				(field
+					(name "Footprint") "Gauge Footprints:INDPM6965X300N")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf")
+				(field
+					(name "Description") "Vishay IHLP Series Type 2525 Shielded Wire-wound SMD Inductor with a Metal Composite Core, 8.2 uH +/-20% Wire-Wound")
 			)
 			(libsource
-				(lib "Device")
-				(part "L")
-				(description "Inductor")
+				(lib "IHLP2525CZER8R2M01")
+				(part "IHLP2525CZER8R2M01")
+				(description "Vishay IHLP Series Type 2525 Shielded Wire-wound SMD Inductor with a Metal Composite Core, 8.2 uH +/-20% Wire-Wound")
+			)
+			(property
+				(name "Height")
+				(value "3")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "70-IHLP2525CZER8R2M1")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER8R2M01?qs=uLRk3XvH1cLgjiQuM1Qn8A%3D%3D")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Vishay")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "IHLP2525CZER8R2M01")
 			)
 			(property
 				(name "Sheetname")
@@ -2710,19 +3820,11 @@
 				(name "Sheetfile")
 				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "inductor choke coil reactor magnetic")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Choke_* *Coil* Inductor_* L_*")
-			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ebf42b86-2bcb-4e93-934b-e668d5253b37")
+			(tstamps "8ac4d78d-abd0-4d88-987b-03b6331d23be")
 			(units
 				(unit
 					(name "A")
@@ -2795,607 +3897,13 @@
 			)
 		)
 		(comp
-			(ref "R1")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "709e0837-9803-4aeb-b2e2-095245ed953b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R2")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b1b0cbb8-a4c0-4f60-95b0-29f3a229fcd7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R3")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "610c9f01-f0f1-46ab-a8eb-ff95b6137d37")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R4")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "070d0cf0-5bad-4cab-bdda-03e3382b702a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R5")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "dba27411-e431-4e1f-8dc2-5a3f11bc2790")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R6")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "2c47d52f-88ea-4977-9e64-f383a835d1b2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R9")
-			(value "33")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "5bfa4953-0541-4afb-8635-9b1774d67c34")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R10")
-			(value "33")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "735b8c73-bf3d-46c7-9bca-051a5e870fa0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R11")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "616325e1-289c-4f18-838c-b10d21b3fe48")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R12")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "378cc6d0-fd01-4a63-bab2-21fb17e70e07")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R13")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0d96a352-27c1-4730-a662-65800b282236")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R14")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3445,11 +3953,11 @@
 		(comp
 			(ref "R15")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3499,11 +4007,11 @@
 		(comp
 			(ref "R16")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3553,11 +4061,11 @@
 		(comp
 			(ref "R17")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3607,11 +4115,11 @@
 		(comp
 			(ref "R18")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3661,11 +4169,11 @@
 		(comp
 			(ref "R19")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3715,11 +4223,11 @@
 		(comp
 			(ref "R20")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3769,11 +4277,11 @@
 		(comp
 			(ref "R21")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3823,11 +4331,11 @@
 		(comp
 			(ref "R22")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3877,11 +4385,11 @@
 		(comp
 			(ref "R23")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3931,11 +4439,11 @@
 		(comp
 			(ref "R24")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3985,11 +4493,11 @@
 		(comp
 			(ref "R25")
 			(value "350")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -4039,11 +4547,11 @@
 		(comp
 			(ref "R26")
 			(value "5.1k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4093,11 +4601,11 @@
 		(comp
 			(ref "R27")
 			(value "5.1k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4147,11 +4655,11 @@
 		(comp
 			(ref "R28")
 			(value "0")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4201,11 +4709,11 @@
 		(comp
 			(ref "R29")
 			(value "120")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4253,67 +4761,13 @@
 			)
 		)
 		(comp
-			(ref "R30")
-			(value "10k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "564bdea5-f3a7-4fba-af1a-c288039ba26a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R31")
 			(value "10K")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4417,11 +4871,11 @@
 		(comp
 			(ref "R33")
 			(value "100k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
 			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4471,11 +4925,11 @@
 		(comp
 			(ref "R34")
 			(value "24.9k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4579,11 +5033,11 @@
 		(comp
 			(ref "R36")
 			(value "2.2k")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4633,11 +5087,11 @@
 		(comp
 			(ref "R37")
 			(value "33")
-			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -4685,7 +5139,817 @@
 			)
 		)
 		(comp
-			(ref "SW1")
+			(ref "R38")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ed261f5-456c-4fdc-8435-879532b91949")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R39")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73c0a86d-b1cb-4ba3-ad7f-a8438221728f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R40")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "038eb561-a1ec-4c6a-a20c-73a7ecd5506e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R41")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "01b15b55-0ee4-4a43-96f4-b93d2a6fc2f6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R42")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "322d0b8f-8900-45c4-9ede-b42c4c59988a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R43")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43ab1287-7870-486e-afc6-2e108ae3f903")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R44")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8f65891a-e1ae-4fc0-b685-7ad4488972d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R45")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a4573ac-e3e4-4774-a16c-f8b9dfb65276")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R46")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c2dc186-9e56-464b-be03-b0f6b0e8e7a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R47")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7785bd0b-caee-4d00-8ea7-8e8597b7f1fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R48")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ded7ee21-10ce-451d-9c2a-9b5f82509be4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R51")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7360ee4-9be9-4759-9379-a992abe8137f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R52")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a4cbf6b-d8e1-4612-b606-faf278646504")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R53")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "331a805a-2bdf-4492-8bc6-d70f0c4f7a73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R54")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96f94d15-e887-4ed3-941f-5615494af4b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
 			(value "SW_Push")
 			(footprint "Button_Switch_THT:SW_PUSH_6mm")
 			(description "Push button switch, generic, two pins")
@@ -4719,7 +5983,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "246006dd-4758-4b3b-93c0-8b57ae504182")
+			(tstamps "8453c9bd-cf2d-4b95-b3a3-b54fc78623ed")
 			(units
 				(unit
 					(name "A")
@@ -4735,7 +5999,7 @@
 			)
 		)
 		(comp
-			(ref "TP1")
+			(ref "TP2")
 			(value "TestPoint")
 			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
 			(description "test point")
@@ -4773,397 +6037,13 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "fde96b1b-c9c3-4566-bf5d-47d7a30b181d")
+			(tstamps "bdadde68-7d44-4cc8-9775-d7d4ee78667f")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "U1")
-			(value "ADS131M08xPBS")
-			(footprint "Package_QFP:TQFP-32_5x5mm_P0.5mm")
-			(datasheet "https://www.ti.com/lit/ds/symlink/ads131m08.pdf")
-			(description "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)")
-			(fields
-				(field
-					(name "Footprint") "Package_QFP:TQFP-32_5x5mm_P0.5mm")
-				(field
-					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads131m08.pdf")
-				(field
-					(name "Description") "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)")
-			)
-			(libsource
-				(lib "Analog_ADC")
-				(part "ADS131M08xPBS")
-				(description "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Texas-Instruments analog-digital-converter")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "*TQFP*5x5mm?P0.5mm*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "15b77d52-4260-4a4c-b624-2602c4912352")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "29")
-						)
-						(pin
-							(num "30")
-						)
-						(pin
-							(num "32")
-						)
-						(pin
-							(num "31")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "9")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "15")
-						)
-						(pin
-							(num "13")
-						)
-						(pin
-							(num "27")
-						)
-						(pin
-							(num "28")
-						)
-						(pin
-							(num "26")
-						)
-						(pin
-							(num "25")
-						)
-						(pin
-							(num "14")
-						)
-						(pin
-							(num "22")
-						)
-						(pin
-							(num "23")
-						)
-						(pin
-							(num "19")
-						)
-						(pin
-							(num "20")
-						)
-						(pin
-							(num "21")
-						)
-						(pin
-							(num "17")
-						)
-						(pin
-							(num "18")
-						)
-						(pin
-							(num "16")
-						)
-						(pin
-							(num "24")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "U2")
-			(value "STM32F446RETx")
-			(footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
-			(datasheet "https://www.st.com/resource/en/datasheet/stm32f446re.pdf")
-			(description "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64")
-			(fields
-				(field
-					(name "Footprint") "Package_QFP:LQFP-64_10x10mm_P0.5mm")
-				(field
-					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32f446re.pdf")
-				(field
-					(name "Description") "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64")
-			)
-			(libsource
-				(lib "MCU_ST_STM32F4")
-				(part "STM32F446RETx")
-				(description "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Arm Cortex-M4 STM32F4 STM32F446")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "LQFP*10x10mm*P0.5mm*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "1b987398-603e-433a-934f-798eec62f70d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "60")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "54")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "9")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "24")
-						)
-						(pin
-							(num "25")
-						)
-						(pin
-							(num "37")
-						)
-						(pin
-							(num "38")
-						)
-						(pin
-							(num "39")
-						)
-						(pin
-							(num "40")
-						)
-						(pin
-							(num "51")
-						)
-						(pin
-							(num "52")
-						)
-						(pin
-							(num "53")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "30")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "19")
-						)
-						(pin
-							(num "32")
-						)
-						(pin
-							(num "63")
-						)
-						(pin
-							(num "18")
-						)
-						(pin
-							(num "47")
-						)
-						(pin
-							(num "31")
-						)
-						(pin
-							(num "48")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "64")
-						)
-						(pin
-							(num "13")
-						)
-						(pin
-							(num "14")
-						)
-						(pin
-							(num "15")
-						)
-						(pin
-							(num "16")
-						)
-						(pin
-							(num "17")
-						)
-						(pin
-							(num "20")
-						)
-						(pin
-							(num "21")
-						)
-						(pin
-							(num "22")
-						)
-						(pin
-							(num "23")
-						)
-						(pin
-							(num "41")
-						)
-						(pin
-							(num "42")
-						)
-						(pin
-							(num "43")
-						)
-						(pin
-							(num "44")
-						)
-						(pin
-							(num "45")
-						)
-						(pin
-							(num "46")
-						)
-						(pin
-							(num "49")
-						)
-						(pin
-							(num "50")
-						)
-						(pin
-							(num "26")
-						)
-						(pin
-							(num "27")
-						)
-						(pin
-							(num "28")
-						)
-						(pin
-							(num "55")
-						)
-						(pin
-							(num "56")
-						)
-						(pin
-							(num "57")
-						)
-						(pin
-							(num "58")
-						)
-						(pin
-							(num "59")
-						)
-						(pin
-							(num "61")
-						)
-						(pin
-							(num "62")
-						)
-						(pin
-							(num "29")
-						)
-						(pin
-							(num "33")
-						)
-						(pin
-							(num "34")
-						)
-						(pin
-							(num "35")
-						)
-						(pin
-							(num "36")
 						)
 					)
 				)
@@ -5525,11 +6405,11 @@
 		(comp
 			(ref "U7")
 			(value "ADS131E08IPAG")
-			(footprint "PAG0064A_N")
+			(footprint "Gauge Footprints:PAG0064A_L")
 			(datasheet "https://www.ti.com/lit/gpn/ads131e08")
 			(fields
 				(field
-					(name "Footprint") "PAG0064A_N")
+					(name "Footprint") "Gauge Footprints:PAG0064A_L")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/gpn/ads131e08")
 				(field
@@ -5764,22 +6644,22 @@
 		)
 		(comp
 			(ref "U8")
-			(value "STM32F412RET6")
-			(footprint "Gauge Footprints:LQFP64-10x10mm")
-			(datasheet "https://www.st.com/resource/en/datasheet/stm32f412ce.pdf")
+			(value "STM32L476RGTx")
+			(footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
+			(datasheet "https://www.st.com/resource/en/datasheet/stm32l476rg.pdf")
+			(description "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64")
 			(fields
 				(field
-					(name "Footprint") "Gauge Footprints:LQFP64-10x10mm")
+					(name "Footprint") "Package_QFP:LQFP-64_10x10mm_P0.5mm")
 				(field
-					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32f412ce.pdf")
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32l476rg.pdf")
 				(field
-					(name "Description")
-				)
+					(name "Description") "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64")
 			)
 			(libsource
-				(lib "2026-10-23_00-01-03")
-				(part "STM32F412RET6")
-				(description "")
+				(lib "MCU_ST_STM32L4")
+				(part "STM32L476RGTx")
+				(description "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64")
 			)
 			(property
 				(name "Sheetname")
@@ -5791,21 +6671,117 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "STM32F412RET6")
+				(value "Arm Cortex-M4 STM32L4 STM32L4x6")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "LQFP64-10x10mm")
+				(value "LQFP*10x10mm*P0.5mm*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "eff352e6-2c64-4d1e-bdcf-bc164f75817c" "c4312ad3-bfbb-4b78-9f6d-65194c022b5c")
+			(tstamps "ee821e10-37c8-41c7-bc72-67c9a17f6be8")
 			(units
 				(unit
 					(name "A")
 					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "60")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "48")
+						)
 						(pin
 							(num "14")
 						)
@@ -5888,6 +6864,9 @@
 							(num "29")
 						)
 						(pin
+							(num "30")
+						)
+						(pin
 							(num "33")
 						)
 						(pin
@@ -5899,132 +6878,40 @@
 						(pin
 							(num "36")
 						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "9")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "24")
-						)
-						(pin
-							(num "25")
-						)
-						(pin
-							(num "37")
-						)
-						(pin
-							(num "38")
-						)
-						(pin
-							(num "39")
-						)
-						(pin
-							(num "40")
-						)
-						(pin
-							(num "51")
-						)
-						(pin
-							(num "52")
-						)
-						(pin
-							(num "53")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "54")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "60")
-						)
-					)
-				)
-				(unit
-					(name "B")
-					(pins
-						(pin
-							(num "18")
-						)
-						(pin
-							(num "31")
-						)
-						(pin
-							(num "47")
-						)
-						(pin
-							(num "63")
-						)
-						(pin
-							(num "12")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "19")
-						)
-						(pin
-							(num "32")
-						)
-						(pin
-							(num "48")
-						)
-						(pin
-							(num "64")
-						)
-						(pin
-							(num "13")
-						)
-						(pin
-							(num "30")
-						)
 					)
 				)
 			)
 		)
 		(comp
 			(ref "Y1")
-			(value "7XL-8.192MBD-T")
-			(footprint "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
-			(datasheet "http://www.txccrystal.com/images/pdf/7xl-tight_wide.pdf")
-			(description "8.192 MHz, 3.3 V CMOS oscillator, 3.2 × 2.5 mm")
+			(value "ECS-.327-9-34B-TR")
+			(footprint "Gauge Footprints:XTAL_ECS-.327-9-34B-TR")
 			(fields
 				(field
-					(name "Footprint") "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
+					(name "MANUFACTURER") "ECS Inc.")
 				(field
-					(name "Datasheet") "http://www.txccrystal.com/images/pdf/7xl-tight_wide.pdf")
+					(name "STANDARD") "Manufacturer recommendations")
 				(field
-					(name "Description") "8.192 MHz, 3.3 V CMOS oscillator, 3.2 × 2.5 mm")
+					(name "Footprint") "Gauge Footprints:XTAL_ECS-.327-9-34B-TR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
 			)
 			(libsource
-				(lib "Oscillator")
-				(part "ASE-xxxMHz")
-				(description "3.3V CMOS SMD Crystal Clock Oscillator, Abracon")
+				(lib "ECS-.327-9-34B-TR")
+				(part "ECS-.327-9-34B-TR")
+				(description "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "ECS Inc.")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer recommendations")
 			)
 			(property
 				(name "Sheetname")
@@ -6034,19 +6921,11 @@
 				(name "Sheetfile")
 				(value "Strain_Gauge_2nd_Prototype.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "3.3V CMOS SMD Crystal Clock Oscillator")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Oscillator*SMD*Abracon*ASE*3.2x2.5mm*")
-			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "585dd990-6c20-47c6-ade9-a9cdd56b3ce4")
+			(tstamps "9f9d6b2c-6086-425a-ad97-0f5520ec98f3")
 			(units
 				(unit
 					(name "A")
@@ -6055,13 +6934,7 @@
 							(num "1")
 						)
 						(pin
-							(num "4")
-						)
-						(pin
 							(num "2")
-						)
-						(pin
-							(num "3")
 						)
 					)
 				)
@@ -6480,532 +7353,6 @@
 			)
 		)
 		(libpart
-			(lib "2026-10-23_00-01-03")
-			(part "STM32F412RET6")
-			(docs "https://www.st.com/resource/en/datasheet/stm32f412ce.pdf")
-			(footprints
-				(fp "LQFP64-10x10mm")
-			)
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "STM32F412RET6")
-				(field
-					(name "Footprint") "LQFP64-10x10mm")
-				(field
-					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32f412ce.pdf")
-				(field
-					(name "Description")
-				)
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "VBAT")
-					(type "power_in")
-				)
-				(pin
-					(num "2")
-					(name "PC13")
-					(type "bidirectional")
-				)
-				(pin
-					(num "3")
-					(name "PC14-OSC32_IN")
-					(type "bidirectional")
-				)
-				(pin
-					(num "4")
-					(name "PC15-OSC32_OUT")
-					(type "bidirectional")
-				)
-				(pin
-					(num "5")
-					(name "PH0-OSC_IN")
-					(type "bidirectional")
-				)
-				(pin
-					(num "6")
-					(name "PH1")
-					(type "bidirectional")
-				)
-				(pin
-					(num "7")
-					(name "NRST")
-					(type "bidirectional")
-				)
-				(pin
-					(num "8")
-					(name "PC0")
-					(type "bidirectional")
-				)
-				(pin
-					(num "9")
-					(name "PC1")
-					(type "bidirectional")
-				)
-				(pin
-					(num "10")
-					(name "PC2")
-					(type "bidirectional")
-				)
-				(pin
-					(num "11")
-					(name "PC3")
-					(type "bidirectional")
-				)
-				(pin
-					(num "12")
-					(name "VSSA/VREF-")
-					(type "power_in")
-				)
-				(pin
-					(num "13")
-					(name "VDDA/VREF+")
-					(type "power_in")
-				)
-				(pin
-					(num "14")
-					(name "PA0")
-					(type "bidirectional")
-				)
-				(pin
-					(num "15")
-					(name "PA1")
-					(type "bidirectional")
-				)
-				(pin
-					(num "16")
-					(name "PA2")
-					(type "bidirectional")
-				)
-				(pin
-					(num "17")
-					(name "PA3")
-					(type "bidirectional")
-				)
-				(pin
-					(num "18")
-					(name "VSS")
-					(type "power_in")
-				)
-				(pin
-					(num "19")
-					(name "VDD")
-					(type "power_in")
-				)
-				(pin
-					(num "20")
-					(name "PA4")
-					(type "bidirectional")
-				)
-				(pin
-					(num "21")
-					(name "PA5")
-					(type "bidirectional")
-				)
-				(pin
-					(num "22")
-					(name "PA6")
-					(type "bidirectional")
-				)
-				(pin
-					(num "23")
-					(name "PA7")
-					(type "bidirectional")
-				)
-				(pin
-					(num "24")
-					(name "PC4")
-					(type "bidirectional")
-				)
-				(pin
-					(num "25")
-					(name "PC5")
-					(type "bidirectional")
-				)
-				(pin
-					(num "26")
-					(name "PB0")
-					(type "bidirectional")
-				)
-				(pin
-					(num "27")
-					(name "PB1")
-					(type "bidirectional")
-				)
-				(pin
-					(num "28")
-					(name "PB2")
-					(type "bidirectional")
-				)
-				(pin
-					(num "29")
-					(name "PB10")
-					(type "bidirectional")
-				)
-				(pin
-					(num "30")
-					(name "VCAP_1")
-					(type "power_in")
-				)
-				(pin
-					(num "31")
-					(name "VSS")
-					(type "power_in")
-				)
-				(pin
-					(num "32")
-					(name "VDD")
-					(type "power_in")
-				)
-				(pin
-					(num "33")
-					(name "PB12")
-					(type "bidirectional")
-				)
-				(pin
-					(num "34")
-					(name "PB13")
-					(type "bidirectional")
-				)
-				(pin
-					(num "35")
-					(name "PB14")
-					(type "bidirectional")
-				)
-				(pin
-					(num "36")
-					(name "PB15")
-					(type "bidirectional")
-				)
-				(pin
-					(num "37")
-					(name "PC6")
-					(type "bidirectional")
-				)
-				(pin
-					(num "38")
-					(name "PC7")
-					(type "bidirectional")
-				)
-				(pin
-					(num "39")
-					(name "PC8")
-					(type "bidirectional")
-				)
-				(pin
-					(num "40")
-					(name "PC9")
-					(type "bidirectional")
-				)
-				(pin
-					(num "41")
-					(name "PA8")
-					(type "bidirectional")
-				)
-				(pin
-					(num "42")
-					(name "PA9")
-					(type "bidirectional")
-				)
-				(pin
-					(num "43")
-					(name "PA10")
-					(type "bidirectional")
-				)
-				(pin
-					(num "44")
-					(name "PA11")
-					(type "bidirectional")
-				)
-				(pin
-					(num "45")
-					(name "PA12")
-					(type "bidirectional")
-				)
-				(pin
-					(num "46")
-					(name "PA13")
-					(type "bidirectional")
-				)
-				(pin
-					(num "47")
-					(name "VSS")
-					(type "power_in")
-				)
-				(pin
-					(num "48")
-					(name "VDD")
-					(type "power_in")
-				)
-				(pin
-					(num "49")
-					(name "PA14")
-					(type "bidirectional")
-				)
-				(pin
-					(num "50")
-					(name "PA15")
-					(type "bidirectional")
-				)
-				(pin
-					(num "51")
-					(name "PC10")
-					(type "bidirectional")
-				)
-				(pin
-					(num "52")
-					(name "PC11")
-					(type "bidirectional")
-				)
-				(pin
-					(num "53")
-					(name "PC12")
-					(type "bidirectional")
-				)
-				(pin
-					(num "54")
-					(name "PD2")
-					(type "bidirectional")
-				)
-				(pin
-					(num "55")
-					(name "PB3")
-					(type "bidirectional")
-				)
-				(pin
-					(num "56")
-					(name "PB4")
-					(type "bidirectional")
-				)
-				(pin
-					(num "57")
-					(name "PB5")
-					(type "bidirectional")
-				)
-				(pin
-					(num "58")
-					(name "PB6")
-					(type "bidirectional")
-				)
-				(pin
-					(num "59")
-					(name "PB7")
-					(type "bidirectional")
-				)
-				(pin
-					(num "60")
-					(name "BOOT0")
-					(type "input")
-				)
-				(pin
-					(num "61")
-					(name "PB8")
-					(type "bidirectional")
-				)
-				(pin
-					(num "62")
-					(name "PB9")
-					(type "bidirectional")
-				)
-				(pin
-					(num "63")
-					(name "VSS")
-					(type "power_in")
-				)
-				(pin
-					(num "64")
-					(name "VDD")
-					(type "power_in")
-				)
-			)
-		)
-		(libpart
-			(lib "Analog_ADC")
-			(part "ADS131M08xPBS")
-			(description "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)")
-			(docs "https://www.ti.com/lit/ds/symlink/ads131m08.pdf")
-			(footprints
-				(fp "*TQFP*5x5mm?P0.5mm*")
-			)
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "ADS131M08xPBS")
-				(field
-					(name "Footprint") "Package_QFP:TQFP-32_5x5mm_P0.5mm")
-				(field
-					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads131m08.pdf")
-				(field
-					(name "Description") "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "AIN2P")
-					(type "input")
-				)
-				(pin
-					(num "2")
-					(name "AIN2N")
-					(type "input")
-				)
-				(pin
-					(num "3")
-					(name "AIN3N")
-					(type "input")
-				)
-				(pin
-					(num "4")
-					(name "AIN3P")
-					(type "input")
-				)
-				(pin
-					(num "5")
-					(name "AIN4P")
-					(type "input")
-				)
-				(pin
-					(num "6")
-					(name "AIN4N")
-					(type "input")
-				)
-				(pin
-					(num "7")
-					(name "AIN5N")
-					(type "input")
-				)
-				(pin
-					(num "8")
-					(name "AIN5P")
-					(type "input")
-				)
-				(pin
-					(num "9")
-					(name "AIN6P")
-					(type "input")
-				)
-				(pin
-					(num "10")
-					(name "AIN6N")
-					(type "input")
-				)
-				(pin
-					(num "11")
-					(name "AIN7N")
-					(type "input")
-				)
-				(pin
-					(num "12")
-					(name "AIN7P")
-					(type "input")
-				)
-				(pin
-					(num "13")
-					(name "AGND")
-					(type "power_in")
-				)
-				(pin
-					(num "14")
-					(name "REFIN")
-					(type "input")
-				)
-				(pin
-					(num "15")
-					(name "AVDD")
-					(type "power_in")
-				)
-				(pin
-					(num "16")
-					(name "~{SYNC}/~{RESET}")
-					(type "input")
-				)
-				(pin
-					(num "17")
-					(name "~{CS}")
-					(type "input")
-				)
-				(pin
-					(num "18")
-					(name "~{DRDY}")
-					(type "output")
-				)
-				(pin
-					(num "19")
-					(name "SCLK")
-					(type "input")
-				)
-				(pin
-					(num "20")
-					(name "DOUT")
-					(type "tri_state")
-				)
-				(pin
-					(num "21")
-					(name "DIN")
-					(type "input")
-				)
-				(pin
-					(num "22")
-					(name "XTAL2")
-					(type "output")
-				)
-				(pin
-					(num "23")
-					(name "XTAL1/CLKIN")
-					(type "input")
-				)
-				(pin
-					(num "24")
-					(name "CAP")
-					(type "passive")
-				)
-				(pin
-					(num "25")
-					(name "DGND")
-					(type "power_in")
-				)
-				(pin
-					(num "26")
-					(name "DVDD")
-					(type "power_in")
-				)
-				(pin
-					(num "27")
-					(name "AGND")
-					(type "passive")
-				)
-				(pin
-					(num "28")
-					(name "AGND")
-					(type "passive")
-				)
-				(pin
-					(num "29")
-					(name "AIN0P")
-					(type "input")
-				)
-				(pin
-					(num "30")
-					(name "AIN0N")
-					(type "input")
-				)
-				(pin
-					(num "31")
-					(name "AIN1N")
-					(type "input")
-				)
-				(pin
-					(num "32")
-					(name "AIN1P")
-					(type "input")
-				)
-			)
-		)
-		(libpart
 			(lib "Connector")
 			(part "Micro_SD_Card_Det2")
 			(description "Micro SD Card Socket with two card detection pins")
@@ -7320,43 +7667,6 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "L")
-			(description "Inductor")
-			(footprints
-				(fp "Choke_*")
-				(fp "*Coil*")
-				(fp "Inductor_*")
-				(fp "L_*")
-			)
-			(fields
-				(field
-					(name "Reference") "L")
-				(field
-					(name "Value") "L")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Inductor")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
 			(part "LED")
 			(description "Light emitting diode")
 			(footprints
@@ -7497,6 +7807,80 @@
 			)
 		)
 		(libpart
+			(lib "ECS-.327-9-34B-TR")
+			(part "ECS-.327-9-34B-TR")
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "ECS-.327-9-34B-TR")
+				(field
+					(name "Footprint") "ECS-.327-9-34B-TR:XTAL_ECS-.327-9-34B-TR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "MANUFACTURER") "ECS Inc.")
+				(field
+					(name "STANDARD") "Manufacturer recommendations")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "IHLP2525CZER8R2M01")
+			(part "IHLP2525CZER8R2M01")
+			(description "Vishay IHLP Series Type 2525 Shielded Wire-wound SMD Inductor with a Metal Composite Core, 8.2 uH +/-20% Wire-Wound")
+			(docs "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "IHLP2525CZER8R2M01")
+				(field
+					(name "Footprint") "INDPM6965X300N")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf")
+				(field
+					(name "Description") "Vishay IHLP Series Type 2525 Shielded Wire-wound SMD Inductor with a Metal Composite Core, 8.2 uH +/-20% Wire-Wound")
+				(field
+					(name "Height") "3")
+				(field
+					(name "Mouser Part Number") "70-IHLP2525CZER8R2M1")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER8R2M01?qs=uLRk3XvH1cLgjiQuM1Qn8A%3D%3D")
+				(field
+					(name "Manufacturer_Name") "Vishay")
+				(field
+					(name "Manufacturer_Part_Number") "IHLP2525CZER8R2M01")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Interface_CAN_LIN")
 			(part "MCP2562-E-SN")
 			(description "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8")
@@ -7560,10 +7944,10 @@
 			)
 		)
 		(libpart
-			(lib "MCU_ST_STM32F4")
-			(part "STM32F446RETx")
-			(description "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64")
-			(docs "https://www.st.com/resource/en/datasheet/stm32f446re.pdf")
+			(lib "MCU_ST_STM32L4")
+			(part "STM32L476RGTx")
+			(description "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64")
+			(docs "https://www.st.com/resource/en/datasheet/stm32l476rg.pdf")
 			(footprints
 				(fp "LQFP*10x10mm*P0.5mm*")
 			)
@@ -7571,13 +7955,13 @@
 				(field
 					(name "Reference") "U")
 				(field
-					(name "Value") "STM32F446RETx")
+					(name "Value") "STM32L476RGTx")
 				(field
 					(name "Footprint") "Package_QFP:LQFP-64_10x10mm_P0.5mm")
 				(field
-					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32f446re.pdf")
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/stm32l476rg.pdf")
 				(field
-					(name "Description") "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64")
+					(name "Description") "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64")
 			)
 			(pins
 				(pin
@@ -7727,8 +8111,8 @@
 				)
 				(pin
 					(num "30")
-					(name "VCAP_1")
-					(type "power_out")
+					(name "PB11")
+					(type "bidirectional")
 				)
 				(pin
 					(num "31")
@@ -7817,7 +8201,7 @@
 				)
 				(pin
 					(num "48")
-					(name "VDD")
+					(name "VDDUSB")
 					(type "power_in")
 				)
 				(pin
@@ -7898,49 +8282,6 @@
 				(pin
 					(num "64")
 					(name "VDD")
-					(type "power_in")
-				)
-			)
-		)
-		(libpart
-			(lib "Oscillator")
-			(part "ASE-xxxMHz")
-			(description "3.3V CMOS SMD Crystal Clock Oscillator, Abracon")
-			(docs "http://www.abracon.com/Oscillators/ASV.pdf")
-			(footprints
-				(fp "Oscillator*SMD*Abracon*ASE*3.2x2.5mm*")
-			)
-			(fields
-				(field
-					(name "Reference") "Y")
-				(field
-					(name "Value") "ASE-xxxMHz")
-				(field
-					(name "Footprint") "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
-				(field
-					(name "Datasheet") "http://www.abracon.com/Oscillators/ASV.pdf")
-				(field
-					(name "Description") "3.3V CMOS SMD Crystal Clock Oscillator, Abracon")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "EN")
-					(type "input")
-				)
-				(pin
-					(num "2")
-					(name "GND")
-					(type "power_in")
-				)
-				(pin
-					(num "3")
-					(name "OUT")
-					(type "output")
-				)
-				(pin
-					(num "4")
-					(name "Vdd")
 					(type "power_in")
 				)
 			)
@@ -8048,16 +8389,16 @@
 			(lib "TPS2113APWR")
 			(part "TPS2113APWR")
 			(description "2.8-V to 5.5-V, 84-mΩ, 1.25-A, power mux with automatic switchover and status output")
+			(docs "https://www.ti.com/product/TPS2113A/part-details/TPS2113APWR")
 			(fields
 				(field
-					(name "Reference") "U")
+					(name "Reference") "U6")
 				(field
 					(name "Value") "TPS2113APWR")
 				(field
-					(name "Footprint") "TPS2113APWR:SOP65P640X120-8N")
+					(name "Footprint") "Gauge Footprints:SOP65P640X120-8N")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.ti.com/product/TPS2113A/part-details/TPS2113APWR")
 				(field
 					(name "Description") "2.8-V to 5.5-V, 84-mΩ, 1.25-A, power mux with automatic switchover and status output")
 				(field
@@ -8109,7 +8450,7 @@
 				(pin
 					(num "7")
 					(name "OUT")
-					(type "output")
+					(type "power_out")
 				)
 				(pin
 					(num "8")
@@ -8338,14 +8679,6 @@
 			(uri "${KIPRJMOD}/ADS131E08IPAG/KiCADv6/2026-10-22_23-36-45.kicad_sym")
 		)
 		(library
-			(logical "2026-10-23_00-01-03")
-			(uri "${KIPRJMOD}/STM32F412RET6/KiCADv6/2026-10-23_00-01-03.kicad_sym")
-		)
-		(library
-			(logical "Analog_ADC")
-			(uri "${KICAD10_SYMBOL_DIR}/Analog_ADC.kicad_sym")
-		)
-		(library
 			(logical "Connector")
 			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
 		)
@@ -8358,16 +8691,20 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
 		)
 		(library
+			(logical "ECS-.327-9-34B-TR")
+			(uri "${KIPRJMOD}/ECS__327_9_34B_TR/ECS-.327-9-34B-TR.kicad_sym")
+		)
+		(library
+			(logical "IHLP2525CZER8R2M01")
+			(uri "${KIPRJMOD}/LIB_IHLP2525CZER8R2M01/IHLP2525CZER8R2M01/KiCad/IHLP2525CZER8R2M01.kicad_sym")
+		)
+		(library
 			(logical "Interface_CAN_LIN")
 			(uri "${KICAD10_SYMBOL_DIR}/Interface_CAN_LIN.kicad_sym")
 		)
 		(library
-			(logical "MCU_ST_STM32F4")
-			(uri "${KICAD10_SYMBOL_DIR}/MCU_ST_STM32F4.kicad_sym")
-		)
-		(library
-			(logical "Oscillator")
-			(uri "${KICAD10_SYMBOL_DIR}/Oscillator.kicad_sym")
+			(logical "MCU_ST_STM32L4")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_ST_STM32L4.kicad_sym")
 		)
 		(library
 			(logical "Regulator_Switching")
@@ -8410,18 +8747,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C12")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C13")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C14")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -8435,32 +8762,52 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C2")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C20")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C4")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C6")
+				(ref "C3")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C9")
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
+				(ref "C47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C49")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "FB2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB3")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8479,6 +8826,196 @@
 				(ref "J2")
 				(pin "1")
 				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R36")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R38")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R39")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R42")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R43")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R45")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "OUT_2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "Vio_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "48")
+				(pinfunction "DVDD_48")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "50")
+				(pinfunction "DVDD_50")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "52")
+				(pinfunction "CLKSEL_52")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "VBAT_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "19")
+				(pinfunction "VDD_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "32")
+				(pinfunction "VDD_32")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "48")
+				(pinfunction "VDDUSB_48")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "64")
+				(pinfunction "VDD_64")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/3.3VAnalog")
+			(class "Default")
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C36")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C37")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C38")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C39")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C41")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C42")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C43")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C45")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB3")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -8518,21 +9055,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R12")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R14")
 				(pin "1")
 				(pintype "passive")
@@ -8544,11 +9066,6 @@
 			)
 			(node
 				(ref "R18")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8568,99 +9085,74 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R3")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R36")
+				(ref "U7")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R4")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R5")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R6")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "15")
-				(pinfunction "AVDD_15")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U1")
-				(pin "26")
-				(pinfunction "DVDD_26")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "1")
-				(pinfunction "VBAT_1")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "19")
-				(pinfunction "VDD_19")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "32")
-				(pinfunction "VDD_32")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "48")
-				(pinfunction "VDD_48")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "64")
-				(pinfunction "VDD_64")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U3")
-				(pin "2")
-				(pinfunction "OUT_2")
-				(pintype "power_out")
-			)
-			(node
-				(ref "U4")
-				(pin "5")
-				(pinfunction "Vio_5")
-				(pintype "power_in")
-			)
-			(node
-				(ref "Y1")
-				(pin "1")
-				(pinfunction "EN_1")
+				(pinfunction "IN8N_1")
 				(pintype "input")
 			)
 			(node
-				(ref "Y1")
+				(ref "U7")
+				(pin "19")
+				(pinfunction "AVDD_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "IN8P_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "21")
+				(pinfunction "AVDD_21")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "22")
+				(pinfunction "AVDD_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "24")
+				(pinfunction "VREFP_24")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "IN7N_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
 				(pin "4")
-				(pinfunction "Vdd_4")
+				(pinfunction "IN7P_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "54")
+				(pinfunction "AVDD1_54")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "56")
+				(pinfunction "AVDD_56")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "59")
+				(pinfunction "AVDD_59")
 				(pintype "power_in")
 			)
 		)
 		(net
-			(code "2")
+			(code "3")
 			(name "/5V")
 			(class "Default")
 			(node
@@ -8695,79 +9187,162 @@
 				(ref "U6")
 				(pin "7")
 				(pinfunction "OUT_7")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "3")
-			(name "/ADCDOUT")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "20")
-				(pinfunction "DOUT_20")
-				(pintype "tri_state")
-			)
-			(node
-				(ref "U2")
-				(pin "22")
-				(pinfunction "PA6_22")
-				(pintype "bidirectional")
+				(pintype "power_out")
 			)
 		)
 		(net
 			(code "4")
-			(name "/ADCDRDY")
+			(name "/ADCCS")
 			(class "Default")
 			(node
-				(ref "U1")
-				(pin "18")
-				(pinfunction "~{DRDY}_18")
-				(pintype "output")
+				(ref "R45")
+				(pin "1")
+				(pintype "passive")
 			)
 			(node
-				(ref "U2")
-				(pin "26")
-				(pinfunction "PB0_26")
+				(ref "U7")
+				(pin "39")
+				(pinfunction "CS_N_39")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "20")
+				(pinfunction "PA4_20")
 				(pintype "bidirectional")
 			)
 		)
 		(net
 			(code "5")
-			(name "/ADCSCLK")
+			(name "/ADCDIN")
 			(class "Default")
 			(node
-				(ref "U1")
-				(pin "19")
-				(pinfunction "SCLK_19")
+				(ref "U7")
+				(pin "34")
+				(pinfunction "DIN_34")
 				(pintype "input")
 			)
 			(node
-				(ref "U2")
-				(pin "21")
-				(pinfunction "PA5_21")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "6")
-			(name "/ADC_DIN")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "21")
-				(pinfunction "DIN_21")
-				(pintype "input")
-			)
-			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "23")
 				(pinfunction "PA7_23")
 				(pintype "bidirectional")
 			)
 		)
 		(net
+			(code "6")
+			(name "/ADCDOUT")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "43")
+				(pinfunction "DOUT_43")
+				(pintype "output")
+			)
+			(node
+				(ref "U8")
+				(pin "22")
+				(pinfunction "PA6_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
 			(code "7")
+			(name "/ADCDRDY")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "47")
+				(pinfunction "DRDY_N_47")
+				(pintype "output")
+			)
+			(node
+				(ref "U8")
+				(pin "26")
+				(pinfunction "PB0_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/ADCPDWN")
+			(class "Default")
+			(node
+				(ref "R48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "35")
+				(pinfunction "PWDN_N_35")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "24")
+				(pinfunction "PC4_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "/ADCRESET")
+			(class "Default")
+			(node
+				(ref "R47")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "36")
+				(pinfunction "RESET_N_36")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "25")
+				(pinfunction "PC5_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/ADCSCLK")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "40")
+				(pinfunction "SCLK_40")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "21")
+				(pinfunction "PA5_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/ADCSTART")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "38")
+				(pinfunction "START_38")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "27")
+				(pinfunction "PB1_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
 			(name "/BUCK_OUT")
 			(class "Default")
 			(node
@@ -8786,7 +9361,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "L1")
+				(ref "L2")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
@@ -8810,7 +9385,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "13")
 			(name "/Bat_POS")
 			(class "Default")
 			(node
@@ -8839,7 +9414,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "14")
 			(name "/CANH")
 			(class "Default")
 			(node
@@ -8867,7 +9442,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "15")
 			(name "/CANL")
 			(class "Default")
 			(node
@@ -8895,36 +9470,30 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "16")
 			(name "/CAN_RX")
 			(class "Default")
-			(node
-				(ref "U2")
-				(pin "61")
-				(pinfunction "PB8_61")
-				(pintype "bidirectional")
-			)
 			(node
 				(ref "U4")
 				(pin "4")
 				(pinfunction "RXD_4")
 				(pintype "output")
 			)
+			(node
+				(ref "U8")
+				(pin "61")
+				(pinfunction "PB8_61")
+				(pintype "bidirectional")
+			)
 		)
 		(net
-			(code "12")
+			(code "17")
 			(name "/CAN_STBY")
 			(class "Default")
 			(node
-				(ref "R30")
+				(ref "R46")
 				(pin "1")
 				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "58")
-				(pinfunction "PB6_58")
-				(pintype "bidirectional")
 			)
 			(node
 				(ref "U4")
@@ -8932,26 +9501,32 @@
 				(pinfunction "STBY_8")
 				(pintype "input")
 			)
-		)
-		(net
-			(code "13")
-			(name "/CAN_TX")
-			(class "Default")
 			(node
-				(ref "U2")
-				(pin "62")
-				(pinfunction "PB9_62")
+				(ref "U8")
+				(pin "59")
+				(pinfunction "PB7_59")
 				(pintype "bidirectional")
 			)
+		)
+		(net
+			(code "18")
+			(name "/CAN_TX")
+			(class "Default")
 			(node
 				(ref "U4")
 				(pin "1")
 				(pinfunction "TXD_1")
 				(pintype "input")
 			)
+			(node
+				(ref "U8")
+				(pin "62")
+				(pinfunction "PB9_62")
+				(pintype "bidirectional")
+			)
 		)
 		(net
-			(code "14")
+			(code "19")
 			(name "/CARDDETECT")
 			(class "Default")
 			(node
@@ -8961,172 +9536,19 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R6")
+				(ref "R43")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "2")
 				(pinfunction "PC13_2")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "15")
-			(name "/CMD")
-			(class "Default")
-			(node
-				(ref "J11")
-				(pin "3")
-				(pinfunction "CMD_3")
-				(pintype "input")
-			)
-			(node
-				(ref "R5")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "54")
-				(pinfunction "PD2_54")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "16")
-			(name "/CS")
-			(class "Default")
-			(node
-				(ref "R12")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "17")
-				(pinfunction "~{CS}_17")
-				(pintype "input")
-			)
-			(node
-				(ref "U2")
-				(pin "20")
-				(pinfunction "PA4_20")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "17")
-			(name "/Controlling Clock")
-			(class "Default")
-			(node
-				(ref "R10")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R9")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "Y1")
-				(pin "3")
-				(pinfunction "OUT_3")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "18")
-			(name "/DAT0")
-			(class "Default")
-			(node
-				(ref "J11")
-				(pin "7")
-				(pinfunction "DAT0_7")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "R1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "39")
-				(pinfunction "PC8_39")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "19")
-			(name "/DAT1")
-			(class "Default")
-			(node
-				(ref "J11")
-				(pin "8")
-				(pinfunction "DAT1_8")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "R2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "40")
-				(pinfunction "PC9_40")
-				(pintype "bidirectional")
-			)
-		)
-		(net
 			(code "20")
-			(name "/DAT2")
-			(class "Default")
-			(node
-				(ref "J11")
-				(pin "1")
-				(pinfunction "DAT2_1")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "R3")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "51")
-				(pinfunction "PC10_51")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "21")
-			(name "/DAT3")
-			(class "Default")
-			(node
-				(ref "J11")
-				(pin "2")
-				(pinfunction "DAT3/CD_2")
-				(pintype "bidirectional")
-			)
-			(node
-				(ref "R4")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "52")
-				(pinfunction "PC11_52")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "22")
 			(name "/FB")
 			(class "Default")
 			(node
@@ -9147,7 +9569,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "21")
 			(name "/ILIM")
 			(class "Default")
 			(node
@@ -9163,11 +9585,11 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "22")
 			(name "/NRST")
 			(class "Default")
 			(node
-				(ref "C17")
+				(ref "C33")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -9183,16 +9605,58 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW1")
+				(ref "SW2")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "7")
 				(pinfunction "NRST_7")
 				(pintype "input")
+			)
+		)
+		(net
+			(code "23")
+			(name "/OSCIN")
+			(class "Default")
+			(node
+				(ref "C57")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "PC14_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/OSCOUT")
+			(class "Default")
+			(node
+				(ref "C58")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "PC15_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y1")
+				(pin "2")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -9213,23 +9677,7 @@
 		)
 		(net
 			(code "26")
-			(name "/REFIN")
-			(class "Default")
-			(node
-				(ref "C7")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "14")
-				(pinfunction "REFIN_14")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "27")
-			(name "/SDCLK")
+			(name "/SDMMC_CK")
 			(class "Default")
 			(node
 				(ref "R37")
@@ -9237,14 +9685,124 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "53")
 				(pinfunction "PC12_53")
 				(pintype "bidirectional")
 			)
 		)
 		(net
+			(code "27")
+			(name "/SDMMC_CMD")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "3")
+				(pinfunction "CMD_3")
+				(pintype "input")
+			)
+			(node
+				(ref "R42")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "54")
+				(pinfunction "PD2_54")
+				(pintype "bidirectional")
+			)
+		)
+		(net
 			(code "28")
+			(name "/SDMMC_D0")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "7")
+				(pinfunction "DAT0_7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R38")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "39")
+				(pinfunction "PC8_39")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "/SDMMC_D1")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "8")
+				(pinfunction "DAT1_8")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R39")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "40")
+				(pinfunction "PC9_40")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "/SDMMC_D2")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "1")
+				(pinfunction "DAT2_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "51")
+				(pinfunction "PC10_51")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "/SDMMC_D3")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "2")
+				(pinfunction "DAT3/CD_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R41")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "52")
+				(pinfunction "PC11_52")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
 			(name "/SW")
 			(class "Default")
 			(node
@@ -9253,7 +9811,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "L1")
+				(ref "L2")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -9266,7 +9824,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "33")
 			(name "/SWCLK")
 			(class "Default")
 			(node
@@ -9275,14 +9833,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "49")
 				(pinfunction "PA14_49")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "30")
+			(code "34")
 			(name "/SWDIO")
 			(class "Default")
 			(node
@@ -9291,14 +9849,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "46")
 				(pinfunction "PA13_46")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "31")
+			(code "35")
 			(name "/SWO")
 			(class "Default")
 			(node
@@ -9313,36 +9871,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "55")
 				(pinfunction "PB3_55")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "32")
-			(name "/SYNC{slash}RESET")
-			(class "Default")
-			(node
-				(ref "R13")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "16")
-				(pinfunction "~{SYNC}/~{RESET}_16")
-				(pintype "input")
-			)
-			(node
-				(ref "U2")
-				(pin "27")
-				(pinfunction "PB1_27")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "33")
+			(code "36")
 			(name "/USB_5V_Fused")
 			(class "Default")
 			(node
@@ -9363,7 +9899,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "37")
 			(name "/USB_D+")
 			(class "Default")
 			(node
@@ -9379,14 +9915,14 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "45")
 				(pinfunction "PA12_45")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "35")
+			(code "38")
 			(name "/USB_D-")
 			(class "Default")
 			(node
@@ -9402,14 +9938,14 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "U2")
+				(ref "U8")
 				(pin "44")
 				(pinfunction "PA11_44")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "36")
+			(code "39")
 			(name "/V0+")
 			(class "Default")
 			(node
@@ -9425,14 +9961,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "29")
-				(pinfunction "AIN0P_29")
+				(ref "U7")
+				(pin "16")
+				(pinfunction "IN1P_16")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "37")
+			(code "40")
 			(name "/V0-")
 			(class "Default")
 			(node
@@ -9446,14 +9982,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "30")
-				(pinfunction "AIN0N_30")
+				(ref "U7")
+				(pin "15")
+				(pinfunction "IN1N_15")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "38")
+			(code "41")
 			(name "/V1+")
 			(class "Default")
 			(node
@@ -9469,14 +10005,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "32")
-				(pinfunction "AIN1P_32")
+				(ref "U7")
+				(pin "14")
+				(pinfunction "IN2P_14")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "39")
+			(code "42")
 			(name "/V1-")
 			(class "Default")
 			(node
@@ -9490,14 +10026,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "31")
-				(pinfunction "AIN1N_31")
+				(ref "U7")
+				(pin "13")
+				(pinfunction "IN2N_13")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "40")
+			(code "43")
 			(name "/V2+")
 			(class "Default")
 			(node
@@ -9513,14 +10049,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "1")
-				(pinfunction "AIN2P_1")
+				(ref "U7")
+				(pin "12")
+				(pinfunction "IN3P_12")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "41")
+			(code "44")
 			(name "/V2-")
 			(class "Default")
 			(node
@@ -9534,14 +10070,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "2")
-				(pinfunction "AIN2N_2")
+				(ref "U7")
+				(pin "11")
+				(pinfunction "IN3N_11")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "42")
+			(code "45")
 			(name "/V3+")
 			(class "Default")
 			(node
@@ -9557,14 +10093,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "4")
-				(pinfunction "AIN3P_4")
+				(ref "U7")
+				(pin "10")
+				(pinfunction "IN4P_10")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "43")
+			(code "46")
 			(name "/V3-")
 			(class "Default")
 			(node
@@ -9578,14 +10114,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "3")
-				(pinfunction "AIN3N_3")
+				(ref "U7")
+				(pin "9")
+				(pinfunction "IN4N_9")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "44")
+			(code "47")
 			(name "/V4+")
 			(class "Default")
 			(node
@@ -9601,14 +10137,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "AIN4P_5")
+				(ref "U7")
+				(pin "8")
+				(pinfunction "IN5P_8")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "45")
+			(code "48")
 			(name "/V4-")
 			(class "Default")
 			(node
@@ -9622,14 +10158,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "AIN4N_6")
+				(ref "U7")
+				(pin "7")
+				(pinfunction "IN5N_7")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "46")
+			(code "49")
 			(name "/V5+")
 			(class "Default")
 			(node
@@ -9645,14 +10181,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "8")
-				(pinfunction "AIN5P_8")
+				(ref "U7")
+				(pin "6")
+				(pinfunction "IN6P_6")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "47")
+			(code "50")
 			(name "/V5-")
 			(class "Default")
 			(node
@@ -9666,14 +10202,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "7")
-				(pinfunction "AIN5N_7")
+				(ref "U7")
+				(pin "5")
+				(pinfunction "IN6N_5")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "48")
+			(code "51")
 			(name "/buckIN")
 			(class "Default")
 			(node
@@ -9712,7 +10248,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "52")
 			(name "/buckVCC")
 			(class "Default")
 			(node
@@ -9733,14 +10269,9 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "53")
 			(name "GND")
 			(class "Default")
-			(node
-				(ref "C1")
-				(pin "2")
-				(pintype "passive")
-			)
 			(node
 				(ref "C10")
 				(pin "1")
@@ -9758,12 +10289,7 @@
 			)
 			(node
 				(ref "C13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C14")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -9777,11 +10303,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C17")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "C18")
 				(pin "2")
 				(pintype "passive")
@@ -9789,11 +10310,6 @@
 			(node
 				(ref "C19")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C2")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -9843,37 +10359,152 @@
 			)
 			(node
 				(ref "C3")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C4")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C5")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C6")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C7")
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C8")
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C9")
+				(ref "C35")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C36")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C37")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C38")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C39")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C40")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C42")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C43")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C45")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C46")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C47")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C49")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C52")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C53")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C54")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C55")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C56")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C57")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C58")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -9972,11 +10603,6 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "R11")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R15")
 				(pin "1")
 				(pintype "passive")
@@ -10022,11 +10648,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R30")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R31")
 				(pin "2")
 				(pintype "passive")
@@ -10042,63 +10663,39 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW1")
+				(ref "R44")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R46")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R51")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R52")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R53")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R54")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
 				(pin "1")
 				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "13")
-				(pinfunction "AGND_13")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U1")
-				(pin "25")
-				(pinfunction "DGND_25")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U1")
-				(pin "27")
-				(pinfunction "AGND_27")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "28")
-				(pinfunction "AGND_28")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "12")
-				(pinfunction "VSSA_12")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "18")
-				(pinfunction "VSS_18")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U2")
-				(pin "31")
-				(pinfunction "VSS_31")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "47")
-				(pinfunction "VSS_47")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "63")
-				(pinfunction "VSS_63")
 				(pintype "passive")
 			)
 			(node
@@ -10144,14 +10741,122 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "Y1")
-				(pin "2")
-				(pinfunction "GND_2")
+				(ref "U7")
+				(pin "20")
+				(pinfunction "AVSS_20")
 				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "23")
+				(pinfunction "AVSS_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "25")
+				(pinfunction "VREFN_25")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "31")
+				(pinfunction "RESV1_31")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "32")
+				(pinfunction "AVSS_32")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "33")
+				(pinfunction "DGND_33")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "37")
+				(pinfunction "CLK_37")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "41")
+				(pinfunction "DAISY_IN_41")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "49")
+				(pinfunction "DGND_49")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "51")
+				(pinfunction "DGND_51")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "53")
+				(pinfunction "AVSS1_53")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "57")
+				(pinfunction "AVSS_57")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "58")
+				(pinfunction "AVSS_58")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "60")
+				(pinfunction "OPAMPP_60")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "12")
+				(pinfunction "VSSA_12")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "18")
+				(pinfunction "VSS_18")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "31")
+				(pinfunction "VSS_31")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "47")
+				(pinfunction "VSS_47")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "63")
+				(pinfunction "VSS_63")
+				(pintype "passive")
 			)
 		)
 		(net
-			(code "51")
+			(code "54")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -10173,7 +10878,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "55")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -10189,7 +10894,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "56")
 			(name "Net-(D3-K)")
 			(class "Default")
 			(node
@@ -10206,7 +10911,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "57")
 			(name "Net-(J9-CC1)")
 			(class "Default")
 			(node
@@ -10222,7 +10927,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "58")
 			(name "Net-(J9-CC2)")
 			(class "Default")
 			(node
@@ -10238,7 +10943,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "59")
 			(name "Net-(J9-SHELL_GND)")
 			(class "Default")
 			(node
@@ -10254,7 +10959,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "60")
 			(name "Net-(J11-CLK)")
 			(class "Default")
 			(node
@@ -10270,119 +10975,7 @@
 			)
 		)
 		(net
-			(code "58")
-			(name "Net-(U1-CAP)")
-			(class "Default")
-			(node
-				(ref "C8")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "24")
-				(pinfunction "CAP_24")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "59")
-			(name "Net-(U1-XTAL1{slash}CLKIN)")
-			(class "Default")
-			(node
-				(ref "R10")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "23")
-				(pinfunction "XTAL1/CLKIN_23")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "60")
-			(name "Net-(U2-BOOT0)")
-			(class "Default")
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TP1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "60")
-				(pinfunction "BOOT0_60")
-				(pintype "input")
-			)
-		)
-		(net
 			(code "61")
-			(name "Net-(U2-PH0)")
-			(class "Default")
-			(node
-				(ref "R9")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "5")
-				(pinfunction "PH0_5")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "62")
-			(name "Net-(U2-VCAP_1)")
-			(class "Default")
-			(node
-				(ref "C1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "30")
-				(pinfunction "VCAP_1_30")
-				(pintype "power_out")
-			)
-		)
-		(net
-			(code "63")
-			(name "Net-(U2-VDDA)")
-			(class "Default")
-			(node
-				(ref "C3")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C5")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "FB2")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "13")
-				(pinfunction "VDDA_13")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "64")
 			(name "Net-(U3-NR{slash}FB)")
 			(class "Default")
 			(node
@@ -10398,7 +10991,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "62")
 			(name "Net-(U5-BOOT)")
 			(class "Default")
 			(node
@@ -10414,7 +11007,188 @@
 			)
 		)
 		(net
+			(code "63")
+			(name "Net-(U7-GPIO1)")
+			(class "Default")
+			(node
+				(ref "R51")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "42")
+				(pinfunction "GPIO1_42")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "64")
+			(name "Net-(U7-GPIO2)")
+			(class "Default")
+			(node
+				(ref "R52")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "44")
+				(pinfunction "GPIO2_44")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "65")
+			(name "Net-(U7-GPIO3)")
+			(class "Default")
+			(node
+				(ref "R53")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "45")
+				(pinfunction "GPIO3_45")
+				(pintype "bidirectional")
+			)
+		)
+		(net
 			(code "66")
+			(name "Net-(U7-GPIO4)")
+			(class "Default")
+			(node
+				(ref "R54")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "46")
+				(pinfunction "GPIO4_46")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "67")
+			(name "Net-(U7-VCAP1)")
+			(class "Default")
+			(node
+				(ref "C56")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "28")
+				(pinfunction "VCAP1_28")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "68")
+			(name "Net-(U7-VCAP2)")
+			(class "Default")
+			(node
+				(ref "C54")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "30")
+				(pinfunction "VCAP2_30")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "69")
+			(name "Net-(U7-VCAP3)")
+			(class "Default")
+			(node
+				(ref "C52")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C53")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "55")
+				(pinfunction "VCAP3_55")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "70")
+			(name "Net-(U7-VCAP4)")
+			(class "Default")
+			(node
+				(ref "C55")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "26")
+				(pinfunction "VCAP4_26")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "71")
+			(name "Net-(U8-BOOT0)")
+			(class "Default")
+			(node
+				(ref "R44")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "60")
+				(pinfunction "BOOT0_60")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "72")
+			(name "Net-(U8-VDDA)")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "13")
+				(pinfunction "VDDA_13")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "73")
 			(name "VBUS")
 			(class "Default")
 			(node
@@ -10436,7 +11210,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "74")
 			(name "unconnected-(J9-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -10447,7 +11221,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "75")
 			(name "unconnected-(J9-SBU2-PadB8)")
 			(class "Default")
 			(node
@@ -10458,1774 +11232,377 @@
 			)
 		)
 		(net
-			(code "69")
-			(name "unconnected-(U1-AIN6N-Pad10)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "10")
-				(pinfunction "AIN6N_10")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "70")
-			(name "unconnected-(U1-AIN6P-Pad9)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "9")
-				(pinfunction "AIN6P_9")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "71")
-			(name "unconnected-(U1-AIN7N-Pad11)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "11")
-				(pinfunction "AIN7N_11")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "72")
-			(name "unconnected-(U1-AIN7P-Pad12)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "12")
-				(pinfunction "AIN7P_12")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "73")
-			(name "unconnected-(U1-XTAL2-Pad22)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "22")
-				(pinfunction "XTAL2_22")
-				(pintype "output+no_connect")
-			)
-		)
-		(net
-			(code "74")
-			(name "unconnected-(U2-PA0-Pad14)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "14")
-				(pinfunction "PA0_14")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "75")
-			(name "unconnected-(U2-PA1-Pad15)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "15")
-				(pinfunction "PA1_15")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
 			(code "76")
-			(name "unconnected-(U2-PA2-Pad16)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "16")
-				(pinfunction "PA2_16")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "77")
-			(name "unconnected-(U2-PA3-Pad17)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "17")
-				(pinfunction "PA3_17")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "78")
-			(name "unconnected-(U2-PA8-Pad41)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "41")
-				(pinfunction "PA8_41")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "79")
-			(name "unconnected-(U2-PA9-Pad42)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "42")
-				(pinfunction "PA9_42")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "80")
-			(name "unconnected-(U2-PA10-Pad43)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "43")
-				(pinfunction "PA10_43")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "81")
-			(name "unconnected-(U2-PA15-Pad50)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "50")
-				(pinfunction "PA15_50")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "82")
-			(name "unconnected-(U2-PB2-Pad28)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "28")
-				(pinfunction "PB2_28")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "83")
-			(name "unconnected-(U2-PB4-Pad56)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "56")
-				(pinfunction "PB4_56")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "84")
-			(name "unconnected-(U2-PB5-Pad57)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "57")
-				(pinfunction "PB5_57")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "85")
-			(name "unconnected-(U2-PB7-Pad59)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "59")
-				(pinfunction "PB7_59")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "86")
-			(name "unconnected-(U2-PB10-Pad29)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "29")
-				(pinfunction "PB10_29")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "87")
-			(name "unconnected-(U2-PB12-Pad33)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "33")
-				(pinfunction "PB12_33")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "88")
-			(name "unconnected-(U2-PB13-Pad34)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "34")
-				(pinfunction "PB13_34")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "89")
-			(name "unconnected-(U2-PB14-Pad35)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "35")
-				(pinfunction "PB14_35")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "90")
-			(name "unconnected-(U2-PB15-Pad36)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "36")
-				(pinfunction "PB15_36")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "91")
-			(name "unconnected-(U2-PC0-Pad8)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "8")
-				(pinfunction "PC0_8")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "92")
-			(name "unconnected-(U2-PC1-Pad9)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "9")
-				(pinfunction "PC1_9")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "93")
-			(name "unconnected-(U2-PC2-Pad10)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "10")
-				(pinfunction "PC2_10")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "94")
-			(name "unconnected-(U2-PC3-Pad11)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "11")
-				(pinfunction "PC3_11")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "95")
-			(name "unconnected-(U2-PC4-Pad24)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "24")
-				(pinfunction "PC4_24")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "96")
-			(name "unconnected-(U2-PC5-Pad25)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "25")
-				(pinfunction "PC5_25")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "97")
-			(name "unconnected-(U2-PC6-Pad37)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "37")
-				(pinfunction "PC6_37")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "98")
-			(name "unconnected-(U2-PC7-Pad38)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "38")
-				(pinfunction "PC7_38")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "99")
-			(name "unconnected-(U2-PC14-Pad3)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "3")
-				(pinfunction "PC14_3")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "100")
-			(name "unconnected-(U2-PC15-Pad4)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "4")
-				(pinfunction "PC15_4")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "101")
-			(name "unconnected-(U2-PH1-Pad6)")
-			(class "Default")
-			(node
-				(ref "U2")
-				(pin "6")
-				(pinfunction "PH1_6")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "102")
-			(name "unconnected-(U7-AVDD-Pad19)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "19")
-				(pinfunction "AVDD_19")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "103")
-			(name "unconnected-(U7-AVDD-Pad21)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "21")
-				(pinfunction "AVDD_21")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "104")
-			(name "unconnected-(U7-AVDD-Pad22)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "22")
-				(pinfunction "AVDD_22")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "105")
-			(name "unconnected-(U7-AVDD-Pad56)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "56")
-				(pinfunction "AVDD_56")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "106")
-			(name "unconnected-(U7-AVDD-Pad59)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "59")
-				(pinfunction "AVDD_59")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "107")
-			(name "unconnected-(U7-AVDD1-Pad54)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "54")
-				(pinfunction "AVDD1_54")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "108")
-			(name "unconnected-(U7-AVSS-Pad20)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "20")
-				(pinfunction "AVSS_20")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "109")
-			(name "unconnected-(U7-AVSS-Pad23)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "23")
-				(pinfunction "AVSS_23")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "110")
-			(name "unconnected-(U7-AVSS-Pad32)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "32")
-				(pinfunction "AVSS_32")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "111")
-			(name "unconnected-(U7-AVSS-Pad57)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "57")
-				(pinfunction "AVSS_57")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "112")
-			(name "unconnected-(U7-AVSS-Pad58)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "58")
-				(pinfunction "AVSS_58")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "113")
-			(name "unconnected-(U7-AVSS1-Pad53)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "53")
-				(pinfunction "AVSS1_53")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "114")
-			(name "unconnected-(U7-CLK-Pad37)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "37")
-				(pinfunction "CLK_37")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "115")
-			(name "unconnected-(U7-CLKSEL-Pad52)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "52")
-				(pinfunction "CLKSEL_52")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "116")
-			(name "unconnected-(U7-CS_N-Pad39)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "39")
-				(pinfunction "CS_N_39")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "117")
-			(name "unconnected-(U7-DAISY_IN-Pad41)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "41")
-				(pinfunction "DAISY_IN_41")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "118")
-			(name "unconnected-(U7-DGND-Pad33)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "33")
-				(pinfunction "DGND_33")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "119")
-			(name "unconnected-(U7-DGND-Pad49)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "49")
-				(pinfunction "DGND_49")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "120")
-			(name "unconnected-(U7-DGND-Pad51)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "51")
-				(pinfunction "DGND_51")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "121")
-			(name "unconnected-(U7-DIN-Pad34)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "34")
-				(pinfunction "DIN_34")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "122")
-			(name "unconnected-(U7-DOUT-Pad43)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "43")
-				(pinfunction "DOUT_43")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "123")
-			(name "unconnected-(U7-DRDY_N-Pad47)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "47")
-				(pinfunction "DRDY_N_47")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "124")
-			(name "unconnected-(U7-DVDD-Pad48)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "48")
-				(pinfunction "DVDD_48")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "125")
-			(name "unconnected-(U7-DVDD-Pad50)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "50")
-				(pinfunction "DVDD_50")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "126")
-			(name "unconnected-(U7-GPIO1-Pad42)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "42")
-				(pinfunction "GPIO1_42")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "127")
-			(name "unconnected-(U7-GPIO2-Pad44)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "44")
-				(pinfunction "GPIO2_44")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "128")
-			(name "unconnected-(U7-GPIO3-Pad45)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "45")
-				(pinfunction "GPIO3_45")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "129")
-			(name "unconnected-(U7-GPIO4-Pad46)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "46")
-				(pinfunction "GPIO4_46")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "130")
-			(name "unconnected-(U7-IN1N-Pad15)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "15")
-				(pinfunction "IN1N_15")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "131")
-			(name "unconnected-(U7-IN1P-Pad16)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "16")
-				(pinfunction "IN1P_16")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "132")
-			(name "unconnected-(U7-IN2N-Pad13)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "13")
-				(pinfunction "IN2N_13")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "133")
-			(name "unconnected-(U7-IN2P-Pad14)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "14")
-				(pinfunction "IN2P_14")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "134")
-			(name "unconnected-(U7-IN3N-Pad11)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "11")
-				(pinfunction "IN3N_11")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "135")
-			(name "unconnected-(U7-IN3P-Pad12)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "12")
-				(pinfunction "IN3P_12")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "136")
-			(name "unconnected-(U7-IN4N-Pad9)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "9")
-				(pinfunction "IN4N_9")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "137")
-			(name "unconnected-(U7-IN4P-Pad10)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "10")
-				(pinfunction "IN4P_10")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "138")
-			(name "unconnected-(U7-IN5N-Pad7)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "7")
-				(pinfunction "IN5N_7")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "139")
-			(name "unconnected-(U7-IN5P-Pad8)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "8")
-				(pinfunction "IN5P_8")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "140")
-			(name "unconnected-(U7-IN6N-Pad5)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "5")
-				(pinfunction "IN6N_5")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "141")
-			(name "unconnected-(U7-IN6P-Pad6)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "6")
-				(pinfunction "IN6P_6")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "142")
-			(name "unconnected-(U7-IN7N-Pad3)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "3")
-				(pinfunction "IN7N_3")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "143")
-			(name "unconnected-(U7-IN7P-Pad4)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "4")
-				(pinfunction "IN7P_4")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "144")
-			(name "unconnected-(U7-IN8N-Pad1)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "1")
-				(pinfunction "IN8N_1")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "145")
-			(name "unconnected-(U7-IN8P-Pad2)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "2")
-				(pinfunction "IN8P_2")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "146")
 			(name "unconnected-(U7-NC-Pad27)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "27")
 				(pinfunction "NC_27")
-				(pintype "unspecified")
+				(pintype "unspecified+no_connect")
 			)
 		)
 		(net
-			(code "147")
+			(code "77")
 			(name "unconnected-(U7-NC-Pad29)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "29")
 				(pinfunction "NC_29")
-				(pintype "unspecified")
+				(pintype "unspecified+no_connect")
 			)
 		)
 		(net
-			(code "148")
+			(code "78")
 			(name "unconnected-(U7-NC-Pad62)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "62")
 				(pinfunction "NC_62")
-				(pintype "unspecified")
+				(pintype "unspecified+no_connect")
 			)
 		)
 		(net
-			(code "149")
+			(code "79")
 			(name "unconnected-(U7-NC-Pad64)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "64")
 				(pinfunction "NC_64")
-				(pintype "unspecified")
+				(pintype "unspecified+no_connect")
 			)
 		)
 		(net
-			(code "150")
+			(code "80")
 			(name "unconnected-(U7-OPAMPN-Pad61)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "61")
 				(pinfunction "OPAMPN_61")
-				(pintype "input")
+				(pintype "input+no_connect")
 			)
 		)
 		(net
-			(code "151")
+			(code "81")
 			(name "unconnected-(U7-OPAMPOUT-Pad63)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "63")
 				(pinfunction "OPAMPOUT_63")
-				(pintype "output")
+				(pintype "output+no_connect")
 			)
 		)
 		(net
-			(code "152")
-			(name "unconnected-(U7-OPAMPP-Pad60)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "60")
-				(pinfunction "OPAMPP_60")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "153")
-			(name "unconnected-(U7-PWDN_N-Pad35)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "35")
-				(pinfunction "PWDN_N_35")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "154")
-			(name "unconnected-(U7-RESET_N-Pad36)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "36")
-				(pinfunction "RESET_N_36")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "155")
-			(name "unconnected-(U7-RESV1-Pad31)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "31")
-				(pinfunction "RESV1_31")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "156")
-			(name "unconnected-(U7-SCLK-Pad40)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "40")
-				(pinfunction "SCLK_40")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "157")
-			(name "unconnected-(U7-START-Pad38)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "38")
-				(pinfunction "START_38")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "158")
+			(code "82")
 			(name "unconnected-(U7-TESTN-Pad18)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "18")
 				(pinfunction "TESTN_18")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "159")
+			(code "83")
 			(name "unconnected-(U7-TESTP-Pad17)")
 			(class "Default")
 			(node
 				(ref "U7")
 				(pin "17")
 				(pinfunction "TESTP_17")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "160")
-			(name "unconnected-(U7-VCAP1-Pad28)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "28")
-				(pinfunction "VCAP1_28")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "161")
-			(name "unconnected-(U7-VCAP2-Pad30)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "30")
-				(pinfunction "VCAP2_30")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "162")
-			(name "unconnected-(U7-VCAP3-Pad55)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "55")
-				(pinfunction "VCAP3_55")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "163")
-			(name "unconnected-(U7-VCAP4-Pad26)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "26")
-				(pinfunction "VCAP4_26")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "164")
-			(name "unconnected-(U7-VREFN-Pad25)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "25")
-				(pinfunction "VREFN_25")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "165")
-			(name "unconnected-(U7-VREFP-Pad24)")
-			(class "Default")
-			(node
-				(ref "U7")
-				(pin "24")
-				(pinfunction "VREFP_24")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "166")
-			(name "unconnected-(U8A-BOOT0-Pad60)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "60")
-				(pinfunction "BOOT0_60")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "167")
-			(name "unconnected-(U8A-NRST-Pad7)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "7")
-				(pinfunction "NRST_7")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "168")
-			(name "unconnected-(U8A-PA0-Pad14)")
+			(code "84")
+			(name "unconnected-(U8-PA0-Pad14)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "14")
 				(pinfunction "PA0_14")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "169")
-			(name "unconnected-(U8A-PA1-Pad15)")
+			(code "85")
+			(name "unconnected-(U8-PA1-Pad15)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "15")
 				(pinfunction "PA1_15")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "170")
-			(name "unconnected-(U8A-PA2-Pad16)")
+			(code "86")
+			(name "unconnected-(U8-PA2-Pad16)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "16")
 				(pinfunction "PA2_16")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "171")
-			(name "unconnected-(U8A-PA3-Pad17)")
+			(code "87")
+			(name "unconnected-(U8-PA3-Pad17)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "17")
 				(pinfunction "PA3_17")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "172")
-			(name "unconnected-(U8A-PA4-Pad20)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "20")
-				(pinfunction "PA4_20")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "173")
-			(name "unconnected-(U8A-PA5-Pad21)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "21")
-				(pinfunction "PA5_21")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "174")
-			(name "unconnected-(U8A-PA6-Pad22)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "22")
-				(pinfunction "PA6_22")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "175")
-			(name "unconnected-(U8A-PA7-Pad23)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "23")
-				(pinfunction "PA7_23")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "176")
-			(name "unconnected-(U8A-PA8-Pad41)")
+			(code "88")
+			(name "unconnected-(U8-PA8-Pad41)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "41")
 				(pinfunction "PA8_41")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "177")
-			(name "unconnected-(U8A-PA9-Pad42)")
+			(code "89")
+			(name "unconnected-(U8-PA9-Pad42)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "42")
 				(pinfunction "PA9_42")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "178")
-			(name "unconnected-(U8A-PA10-Pad43)")
+			(code "90")
+			(name "unconnected-(U8-PA10-Pad43)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "43")
 				(pinfunction "PA10_43")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "179")
-			(name "unconnected-(U8A-PA11-Pad44)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "44")
-				(pinfunction "PA11_44")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "180")
-			(name "unconnected-(U8A-PA12-Pad45)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "45")
-				(pinfunction "PA12_45")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "181")
-			(name "unconnected-(U8A-PA13-Pad46)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "46")
-				(pinfunction "PA13_46")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "182")
-			(name "unconnected-(U8A-PA14-Pad49)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "49")
-				(pinfunction "PA14_49")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "183")
-			(name "unconnected-(U8A-PA15-Pad50)")
+			(code "91")
+			(name "unconnected-(U8-PA15-Pad50)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "50")
 				(pinfunction "PA15_50")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "184")
-			(name "unconnected-(U8A-PB0-Pad26)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "26")
-				(pinfunction "PB0_26")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "185")
-			(name "unconnected-(U8A-PB1-Pad27)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "27")
-				(pinfunction "PB1_27")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "186")
-			(name "unconnected-(U8A-PB2-Pad28)")
+			(code "92")
+			(name "unconnected-(U8-PB2-Pad28)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "28")
 				(pinfunction "PB2_28")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "187")
-			(name "unconnected-(U8A-PB3-Pad55)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "55")
-				(pinfunction "PB3_55")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "188")
-			(name "unconnected-(U8A-PB4-Pad56)")
+			(code "93")
+			(name "unconnected-(U8-PB4-Pad56)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "56")
 				(pinfunction "PB4_56")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "189")
-			(name "unconnected-(U8A-PB5-Pad57)")
+			(code "94")
+			(name "unconnected-(U8-PB5-Pad57)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "57")
 				(pinfunction "PB5_57")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "190")
-			(name "unconnected-(U8A-PB6-Pad58)")
+			(code "95")
+			(name "unconnected-(U8-PB6-Pad58)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "58")
 				(pinfunction "PB6_58")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "191")
-			(name "unconnected-(U8A-PB7-Pad59)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "59")
-				(pinfunction "PB7_59")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "192")
-			(name "unconnected-(U8A-PB8-Pad61)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "61")
-				(pinfunction "PB8_61")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "193")
-			(name "unconnected-(U8A-PB9-Pad62)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "62")
-				(pinfunction "PB9_62")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "194")
-			(name "unconnected-(U8A-PB10-Pad29)")
+			(code "96")
+			(name "unconnected-(U8-PB10-Pad29)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "29")
 				(pinfunction "PB10_29")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "195")
-			(name "unconnected-(U8A-PB12-Pad33)")
+			(code "97")
+			(name "unconnected-(U8-PB11-Pad30)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "30")
+				(pinfunction "PB11_30")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(U8-PB12-Pad33)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "33")
 				(pinfunction "PB12_33")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "196")
-			(name "unconnected-(U8A-PB13-Pad34)")
+			(code "99")
+			(name "unconnected-(U8-PB13-Pad34)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "34")
 				(pinfunction "PB13_34")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "197")
-			(name "unconnected-(U8A-PB14-Pad35)")
+			(code "100")
+			(name "unconnected-(U8-PB14-Pad35)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "35")
 				(pinfunction "PB14_35")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "198")
-			(name "unconnected-(U8A-PB15-Pad36)")
+			(code "101")
+			(name "unconnected-(U8-PB15-Pad36)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "36")
 				(pinfunction "PB15_36")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "199")
-			(name "unconnected-(U8A-PC0-Pad8)")
+			(code "102")
+			(name "unconnected-(U8-PC0-Pad8)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "8")
 				(pinfunction "PC0_8")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "200")
-			(name "unconnected-(U8A-PC1-Pad9)")
+			(code "103")
+			(name "unconnected-(U8-PC1-Pad9)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "9")
 				(pinfunction "PC1_9")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "201")
-			(name "unconnected-(U8A-PC2-Pad10)")
+			(code "104")
+			(name "unconnected-(U8-PC2-Pad10)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "10")
 				(pinfunction "PC2_10")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "202")
-			(name "unconnected-(U8A-PC3-Pad11)")
+			(code "105")
+			(name "unconnected-(U8-PC3-Pad11)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "11")
 				(pinfunction "PC3_11")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "203")
-			(name "unconnected-(U8A-PC4-Pad24)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "24")
-				(pinfunction "PC4_24")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "204")
-			(name "unconnected-(U8A-PC5-Pad25)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "25")
-				(pinfunction "PC5_25")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "205")
-			(name "unconnected-(U8A-PC6-Pad37)")
+			(code "106")
+			(name "unconnected-(U8-PC6-Pad37)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "37")
 				(pinfunction "PC6_37")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "206")
-			(name "unconnected-(U8A-PC7-Pad38)")
+			(code "107")
+			(name "unconnected-(U8-PC7-Pad38)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "38")
 				(pinfunction "PC7_38")
-				(pintype "bidirectional")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "207")
-			(name "unconnected-(U8A-PC8-Pad39)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "39")
-				(pinfunction "PC8_39")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "208")
-			(name "unconnected-(U8A-PC9-Pad40)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "40")
-				(pinfunction "PC9_40")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "209")
-			(name "unconnected-(U8A-PC10-Pad51)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "51")
-				(pinfunction "PC10_51")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "210")
-			(name "unconnected-(U8A-PC11-Pad52)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "52")
-				(pinfunction "PC11_52")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "211")
-			(name "unconnected-(U8A-PC12-Pad53)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "53")
-				(pinfunction "PC12_53")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "212")
-			(name "unconnected-(U8A-PC13-Pad2)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "2")
-				(pinfunction "PC13_2")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "213")
-			(name "unconnected-(U8A-PC14-OSC32_IN-Pad3)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "3")
-				(pinfunction "PC14-OSC32_IN_3")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "214")
-			(name "unconnected-(U8A-PC15-OSC32_OUT-Pad4)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "4")
-				(pinfunction "PC15-OSC32_OUT_4")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "215")
-			(name "unconnected-(U8A-PD2-Pad54)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "54")
-				(pinfunction "PD2_54")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "216")
-			(name "unconnected-(U8A-PH0-OSC_IN-Pad5)")
+			(code "108")
+			(name "unconnected-(U8-PH0-Pad5)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "5")
-				(pinfunction "PH0-OSC_IN_5")
-				(pintype "bidirectional")
+				(pinfunction "PH0_5")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "217")
-			(name "unconnected-(U8A-PH1-Pad6)")
+			(code "109")
+			(name "unconnected-(U8-PH1-Pad6)")
 			(class "Default")
 			(node
 				(ref "U8")
 				(pin "6")
 				(pinfunction "PH1_6")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "218")
-			(name "unconnected-(U8B-VBAT-Pad1)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "1")
-				(pinfunction "VBAT_1")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "219")
-			(name "unconnected-(U8B-VCAP_1-Pad30)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "30")
-				(pinfunction "VCAP_1_30")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "220")
-			(name "unconnected-(U8B-VDD-Pad19)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "19")
-				(pinfunction "VDD_19")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "221")
-			(name "unconnected-(U8B-VDD-Pad32)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "32")
-				(pinfunction "VDD_32")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "222")
-			(name "unconnected-(U8B-VDD-Pad48)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "48")
-				(pinfunction "VDD_48")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "223")
-			(name "unconnected-(U8B-VDD-Pad64)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "64")
-				(pinfunction "VDD_64")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "224")
-			(name "unconnected-(U8B-VDDA{slash}VREF+-Pad13)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "13")
-				(pinfunction "VDDA/VREF+_13")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "225")
-			(name "unconnected-(U8B-VSS-Pad18)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "18")
-				(pinfunction "VSS_18")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "226")
-			(name "unconnected-(U8B-VSS-Pad31)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "31")
-				(pinfunction "VSS_31")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "227")
-			(name "unconnected-(U8B-VSS-Pad47)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "47")
-				(pinfunction "VSS_47")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "228")
-			(name "unconnected-(U8B-VSS-Pad63)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "63")
-				(pinfunction "VSS_63")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "229")
-			(name "unconnected-(U8B-VSSA{slash}VREF--Pad12)")
-			(class "Default")
-			(node
-				(ref "U8")
-				(pin "12")
-				(pinfunction "VSSA/VREF-_12")
-				(pintype "power_in")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 	)
