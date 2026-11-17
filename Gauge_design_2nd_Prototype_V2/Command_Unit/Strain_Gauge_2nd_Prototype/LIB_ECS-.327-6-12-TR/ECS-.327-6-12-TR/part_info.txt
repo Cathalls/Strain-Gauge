@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-.327-6-12-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=2
+Version=2.3
+Released=2017-03-16 17:01:10
+Downloaded=2026-10-26 10:39:39
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=IHLP2525CZER8R2M01
+PartCategory=Inductor
+PackageCategory=Inductors Precision Moulded
+PinCount=2
+Version=1.1
+Released=2019-09-20 12:20:05
+Downloaded=2026-10-26 10:03:08
+3D=Y

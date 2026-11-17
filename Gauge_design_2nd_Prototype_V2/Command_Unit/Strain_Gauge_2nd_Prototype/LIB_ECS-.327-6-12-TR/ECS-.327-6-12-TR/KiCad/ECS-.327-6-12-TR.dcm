@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-.327-6-12-TR
+D Crystals 32.768KHz 6pF
+K
+F https://www.ecsxtal.com/store/pdf/ECX_12.pdf
+$ENDCMP
+#
+#End Doc Library

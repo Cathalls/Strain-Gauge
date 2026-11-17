@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-.327-6-12-TR"
+   (description "Crystals 32.768KHz 6pF")
+   (family "OSC")
+   (package "ECS327612TR")
+   (attribute "Datasheet Link" "https://www.ecsxtal.com/store/pdf/ECX_12.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "520-ECS-.327-6-12-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-.327-6-12-TR?qs=wo4x%252BUeoG8V%252B%252BoaFHDz4HA%3D%3D")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-.327-6-12-TR")
+   (gate
+    (symbol "ECS-.327-6-12-TR")
+    (pin "OUT/IN" 2 PS)
+    (pin ""  PS)
+   )
+  )
+  (symbol "ECS-.327-6-12-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS327612TR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0.6)
+      (pt 1 0.6)
+      (pt 1 -0.6)
+      (pt -1 -0.6)
+      (pt -1 0.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.6)
+      (pt 2 1.6)
+      (pt 2 -1.6)
+      (pt -2 -1.6)
+      (pt -2 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0)
+      (arc (pt -1.600 0.000) (pt -1.600 -0.050) (pt -1.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.5 0)
+      (arc (pt -1.500 0.000) (pt -1.600 -0.050) (pt -1.500 0.050) (start 180.0) (sweep .0))
+      (pt -1.6 0))))
+   (leg 1 (pt -0.700 0.000) (padstack 0))
+   (leg 2 (pt 0.700 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 1.100 0 0 90.000))
+   )
+   (model "ECS-.327-6-12-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

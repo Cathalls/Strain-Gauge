@@ -1,0 +1,16 @@
+.ECS-.327-6-12-TR :1 ;Crystals 32.768KHz 6pF
+ECS327612TR
+*STM Y
+*NGS
+*PLB 1="IN/OUT" 2="OUT/IN"
+*MXP 2
+*DFN ECS-.327-6-12-TR
+~!Mouser Part Number (520-ECS-.327-6-12-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-.327-6-12-TR?qs=wo4x%252BUeoG8V%252B%252BoaFHDz4HA%3D%3D)
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-.327-6-12-TR)
+~!Link Datasheet (https://www.ecsxtal.com/store/pdf/ECX_12.pdf)
+~!Height (0.6mm)
+~!3D_Model (ECS-.327-6-12-TR)
+ECS-.327-6-12-TR
+1.1!U 2.1!U 

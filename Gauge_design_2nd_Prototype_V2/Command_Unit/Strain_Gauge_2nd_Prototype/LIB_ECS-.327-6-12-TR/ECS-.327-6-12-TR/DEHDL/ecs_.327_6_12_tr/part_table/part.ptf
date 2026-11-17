@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECS_.327_6_12_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ECS", "ECS-.327-6-12-TR" (!) = "", "ECS327612TR", "Other", "520-ECS-.327-6-12-TR", "https://www.mouser.co.uk/ProductDetail/ECS/ECS-.327-6-12-TR?qs=wo4x%252BUeoG8V%252B%252BoaFHDz4HA%3D%3D", "Crystals 32.768KHz 6pF", "https://www.ecsxtal.com/store/pdf/ECX_12.pdf", "0.6 mm"
+END_PART
+
+END.

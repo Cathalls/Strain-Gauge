@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IHLP2525CZER8R2M01"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-20-12:20:05)
+    (mountForm default
+        (footprintRef "INDPM6965X300N")
+        (spec "System")
+    )
+)
