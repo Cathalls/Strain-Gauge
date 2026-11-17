@@ -1,0 +1,9 @@
+As of the 27th October, the design was to have all 5 gauges running off one ADC and then sending back to Board
+The problem with this is noise resistance
+
+Dave's suggestion:
+Make it out at the wishbone convert to a signal which can then be sent back to the board through noise immune channels.
+
+My thoughts currently:
+- Need to run it with CAN back to a control system, SPI will likely be too noisy for this to work properly. Especially at the back of the car with spinning wheels and the like. I need to do this properly to avoid this issue. Although from here can go back to a design using simpler components more like the one setup originally from the first prototype. 
+- Need to figure out how to continue from here. 
