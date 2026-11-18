@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Gauge Connections") (type "KiCad") (uri "${KIPRJMOD}/Gauge Connections.pretty") (options "") (descr ""))
+)
